@@ -99,6 +99,21 @@ ul>li>a:hover {
 	background: rgba(230,28,49,1);
 	border-color: rgba(230,28,49,1);
 }
+
+.btn-primary-about:hover {
+    color: #fff;
+    font-family: 'corbel';
+    background: rgba(198,34,41,1);
+    border-color: rgba(198,34,41,1);
+}
+.btn-primary.active, .btn-primary-about:active, .show>.btn-primary.dropdown-toggle {
+    background: rgba(230,28,49,1);
+    background-image: none;
+    border-color: rgba(230,28,49,1);
+}
+.btn-primary.focus, .btn-primary-about:focus {
+    box-shadow: 0 0 0 3px rgba(230,28,49,.5);
+}
 .btn-primary:hover {
     color: #fff;
 	font-family:'corbel';
@@ -164,7 +179,10 @@ ul>li>a:hover {
 	padding:7em;
 }
 
-
+a:hover {
+    color: rgba(230,28,49,1);
+    text-decoration: none;
+}
 
 .about {
     display: inline-block;
