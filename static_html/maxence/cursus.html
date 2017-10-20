@@ -1,6 +1,7 @@
 ﻿<!doctype html>
 <html lang="fr">
 
+
 <head>
 	<meta charset="utf-8">
 	
@@ -8,33 +9,11 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 	<!-- we want the full version not the slim --> 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
 	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  	
-	<script type="text/javascript">
-   function ValiderMail(formulaire) {
-      if (formulaire.mail.value.indexOf("@",0)<0) {alert("Adresse mail saisie invalide.\nLe formulaire ne sera pas validé.")}
-      else {
-         alert("formulaire validé.\nPour valider un formulaire : formulaire.submit()");
-         // Pour valider le formulaire en javascript :
-         // formulaire.submit()
-      }
-   }
-</script>
-	
-	
-	
-	<link rel="stylesheet" href="style3.css">
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 	    <!-- Custom styles for this template -->
-	<script>
-		 $( function() {
-			$( "#accordion" ).accordion();
-		 } );
-	
-	
-	
-	</script>
+	<link rel="stylesheet" href="style3.css">
 </head>
 
 
@@ -89,69 +68,65 @@
 		</div>
 	</div>
 
-	<div id="accordion">
-		<div class="boite1">
-			<h3 class="gris"> 1- NINJA DÉBUTANT</h3>
-		</div>
-		<div class="parent">
-			<div class="rouge">
-				<p>
-				Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-				ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-				amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-				odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-				Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-				Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-				ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-				lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-				Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-				ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-				lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-				Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-				Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-				ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-				lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-				</p>
+	<div id="accordion" role="tablist">
+		<div class="card">
+			<div class="boite1">
+				<div class="card-header" role="tab" id="headingOne">
+					<h5 class="mb-0">
+						<a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							<h2> 1- NINJA DÉBUTANT </h2>
+						</a>
+					</h5>
+				</div>
+			</div>
+			<div class="parent">
+				<div class="rouge">
+					<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+						<div class="card-body">
+							<p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		
-		<div class="boite2">
-			<h3 class="gris">2- NINJA INTERMÉDIAIRE</h3>
-		</div>
-		<div class="parent">
-			<div class="rouge">
-				<p>
-				Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-				purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-				velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-				suscipit faucibus urna.
-				Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-				Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-				ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-				lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-				Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-				Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-				ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-				lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-				</p>
+		<div class="card">
+			<div class="boite2">
+				<div class="card-header" role="tab" id="headingTwo">
+					<h5 class="mb-0">
+						<a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							<h2> 2- NINJA INTERMÉDIAIRE </h2>
+						</a>
+					</h5>
+				</div>
+			</div>
+			<div class="parent">
+				<div class="rouge">
+					<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+						<div class="card-body">
+							<p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-	
-		<div class="boite3">
-			<h3 class="gris">3- NINJA CONFIRMÉ</h3>
-		</div>
-		<div class="parent">
-			<div class="rouge">
-				<p>
-				Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-				Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-				ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-				lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-				Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-				Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-				ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-				lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-				</p>
+		<div class="card">
+			<div class="boite3">
+				<div class="card-header" role="tab" id="headingThree">
+					<h5 class="mb-0">
+						<a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							<h2> 3- NINJA CONFIRMÉ </h2>
+						</a>
+					</h5>
+				</div>	
+			</div>
+			<div class="parent">
+				<div class="rouge">
+					<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+						<div class="card-body">
+							<p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
