@@ -58,6 +58,10 @@ body {
 	
 }
 
+.bg img{
+	background-image: 100%;
+}
+
 .baseline {
 	position: relative;
 	font-family:'texteGras';
