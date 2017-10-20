@@ -304,8 +304,20 @@ ul>li>a:hover {
 	 vertical-align:bottom;
 	
 }
-.macenter{
-	margin: auto;
+
+.footer-bs p{ 
+font-size:16px; 
+color:rgba(255,255,255,1);
+}
+
+.footer-bs p a{ 
+font-size:16px; 
+color:rgba(255,255,255,1);
+}
+
+.footer-bs p a:hover{ 
+font-size:16px; 
+color:rgba(230,28,49,1);
 }
 .footer-bs .footer-brand, .footer-bs .footer-txt, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
 .footer-bs .footer-txt, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
@@ -375,9 +387,35 @@ ul>li>a:hover {
 } */
 
 .content-align-bottom {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  position: relative;
+    bottom: 0%;
+    left: 0%;
+    /*text-align: center;*/
+    margin: auto;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
+.text-center{
+	display:block;
+}
+
+.macenter{
+	text-align:center;
+}
+
+.align-right{
+	text-align: right;
+    margin-right: 4em;
+}
+
+.content-align-bottom-2 {
+	font-family:'corbel';
+	position: absolute;
+    bottom: 0%;
+    left: 4%;
+    text-align: center;
+   
+}
 
