@@ -260,12 +260,12 @@ div.container.partie2 {
 
 .card-text {
 	position: absolute;
-	/*overflow: hidden;*/
+	overflow: hidden;
 	background: rgba(230, 28, 49, 0.75);
 	width: 100%;
 	height: 5rem;
 	color: white;
-	/*padding-top: 1rem;*/
+	padding-top: 1rem;
 	bottom: 0;
 }
 
