@@ -14,7 +14,7 @@ $(function () {
         }
         var map = new google.maps.Map(mapCanvas, mapOptions);
 
-        var Log404 = 'code404.svg';
+        var Log404 = '/script/code404.svg';
 
         var marker = new google.maps.Marker({
             position: location,

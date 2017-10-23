@@ -14,7 +14,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+</div>
 		
 <div class="container-fluid partie1">
 	<div class="container">
