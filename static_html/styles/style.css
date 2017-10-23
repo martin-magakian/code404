@@ -1,3 +1,17 @@
+@font-face {
+	font-family: 'corbel';
+	src: url('/fonts/corbel.ttf');
+}
+@font-face {
+	font-family: 'texteGras';
+	src: url('/fonts/corbelb.ttf');
+}
+
+@font-face {
+	font-family: 'typologo';
+	src: url('/fonts/Courier Prime Code.ttf');
+}
+
 body, ul, li, a, p, h3	{
 	margin : 0 ; 
 	padding : 0 ; 
@@ -40,7 +54,7 @@ h3 {
 
 
 .background-header {
-	background-image: url(../img/travailequipe.png);
+	background-image: url(/img/travailequipe.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 52rem;
@@ -48,17 +62,9 @@ h3 {
 	padding: 0;
 }
 
-/*.container-fluid {
-	background-image: url(../img/travailequipe.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	height: 52rem;
-	z-index:1;
-	padding: 0;
-	
-}*/
 
 .baseline {
+	font-family:"corbel";
 	position: relative;
 	font-size: 3rem;
 	color: #fff;
@@ -237,32 +243,32 @@ div.container.partie2 {
 }
 
 .card-block1 {
-	background: url("../img/img1-actu.jpg");
+	background: url("/img/img1-actu.jpg");
 	background-position: center;
 }
 
 .card-block2 {
-	background: url("../img/img2-actu.jpg");
+	background: url("/img/img2-actu.jpg");
 	background-position: center;
 }
 
 .card-block3 {
-	background: url("../img/img3-actu.jpg");
+	background: url("/img/img3-actu.jpg");
 	background-position: center;
 }
 
 .card-block4 {
-	background: url("../img/img4-actu.jpg");
+	background: url("/img/img4-actu.jpg");
 	background-position: center;
 }
 
 .card-block5 {
-	background: url("../img/img5-actu.jpg");
+	background: url("/img/img5-actu.jpg");
 	background-position: center;
 }
 
 .card-block6 {
-	background: url("../img/img6-actu.jpg");
+	background: url("/img/img6-actu.jpg");
 	background-position: center;
 }
 
@@ -308,37 +314,37 @@ div.container.partie2 {
 	}
 	
 	.card-block1 {
-	background: url("../img/img1-actu-1480.jpg");
+	background: url("/img/img1-actu-1480.jpg");
 	background-position: center;
 	
 	}
 
 	.card-block2 {
-		background: url("../img/img2-actu-1480.jpg");
+		background: url("/img/img2-actu-1480.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block3 {
-		background: url("../img/img3-actu.jpg");
+		background: url("/img/img3-actu.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block4 {
-		background: url("../img/img4-actu.jpg");
+		background: url("/img/img4-actu.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block5 {
-		background: url("../img/img5-actu.jpg");
+		background: url("/img/img5-actu.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block6 {
-		background: url("../img/img6-actu.jpg");
+		background: url("/img/img6-actu.jpg");
 		background-position: center;
 	}
 	
@@ -402,37 +408,37 @@ div.container.partie2 {
 	}
 	
 	.card-block1 {
-	background: url("../img/img1-actu-1480.jpg");
+	background: url("/img/img1-actu-1480.jpg");
 	background-position: center;
 	
 	}
 
 	.card-block2 {
-		background: url("../img/img2-actu-1480.jpg");
+		background: url("/img/img2-actu-1480.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block3 {
-		background: url("../img/img3-actu.jpg");
+		background: url("/img/img3-actu.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block4 {
-		background: url("../img/img4-actu.jpg");
+		background: url("/img/img4-actu.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block5 {
-		background: url("../img/img5-actu.jpg");
+		background: url("/img/img5-actu.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block6 {
-		background: url("../img/img6-actu.jpg");
+		background: url("/img/img6-actu.jpg");
 		background-position: center;
 	}
 	
@@ -473,37 +479,37 @@ div.container.partie2 {
 	}
 	
 	.card-block1 {
-	background: url("../img/img1-actu-990.jpg");
+	background: url("/img/img1-actu-990.jpg");
 	background-position: center;
 	
 	}
 
 	.card-block2 {
-		background: url("../img/img2-actu-990.jpg");
+		background: url("/img/img2-actu-990.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block3 {
-		background: url("../img/img3-actu-990.jpg");
+		background: url("/img/img3-actu-990.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block4 {
-		background: url("../img/img4-actu-990.jpg");
+		background: url("/img/img4-actu-990.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block5 {
-		background: url("../img/img5-actu-990.jpg");
+		background: url("/img/img5-actu-990.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block6 {
-		background: url("../img/img6-actu-990.jpg");
+		background: url("/img/img6-actu-990.jpg");
 		background-position: center;
 	}
 	
@@ -599,6 +605,448 @@ div.container.partie2 {
 }
 
 
+
+
+
+/*page  a propos */
+
+
+.marge{
+	padding: 0rem 2rem;
+}
+
+.nomarge{
+	max-width: 1255px;
+    padding: 0rem 2rem;
+}
+
+.bg {
+	background-image: url('/img/travailequipe.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 52rem;
+	z-index:1;
+	
+}
+
+.bg img{
+	background-image: 100%;
+}
+
+
+
+
+.colorred{
+	background: rgba(230,28,49,1);
+	border-color: rgba(230,28,49,1);
+}
+
+.btn-primary-about:hover {
+    color: #fff;
+    font-family: 'corbel';
+    background: rgba(198,34,41,1);
+    border-color: rgba(198,34,41,1);
+}
+.btn-primary.active, .btn-primary-about:active, .show>.btn-primary.dropdown-toggle {
+    background: rgba(230,28,49,1);
+    background-image: none;
+    border-color: rgba(230,28,49,1);
+}
+.btn-primary.focus, .btn-primary-about:focus {
+    box-shadow: 0 0 0 3px rgba(230,28,49,.5);
+}
+.btn-primary:hover {
+    color: #fff;
+	font-family:'corbel';
+    background: rgba(198,34,41,1);
+	border-color: rgba(198,34,41,1);
+}
+
+.btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    background: rgba(230,28,49,1);
+    background-image: none;
+    border-color: rgba(230,28,49,1);
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 3px rgba(230,28,49,.5);
+}
+.rouge {
+	color : red ;
+	font-size : 2em ; 
+	text-align : center ;
+	
+}
+.centre {
+	line-height: 0.7em; 
+}
+
+.grey{
+	background-color:rgba(72,70,69,1);
+	display: block;
+    height: auto;
+	padding:7em;
+}
+
+.text-center{
+	font-family:'corbel';
+	font-size: 1.5em;
+	color: rgba(72,70,69,1);
+}
+.GTitre{
+	color: white;
+	font-family:corbel;
+	font-size:2em;
+	text-transform:uppercase;
+	margin-bottom:2em;
+}
+.name{
+	font-family:corbel;
+	text-transform:uppercase;
+	font-weight:1.5em;
+}
+.gras{
+	font-family:'texteGras';
+	
+}
+
+.white{
+	color:white;
+}
+
+.blocwhite{
+	background-color:white;
+	display: block;
+    height: auto;
+	padding:7em;
+}
+
+a:hover {
+    color: rgba(230,28,49,1);
+    text-decoration: none;
+}
+
+.about {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.35rem 0rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: .25rem;
+    transition: all .15s ease-in-out;
+    width: 100%;
+}
+
+.card-body-about {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0rem;
+	color: rgba(72,70,69,1);
+}
+
+.haut{
+	padding-top: 1.25rem;
+	
+}
+.bas{
+	padding-top: 0.65rem;
+	padding-bottom: 0.65rem;
+	
+}
+.space{
+	padding-right: 1.25rem;
+	padding-left: 1.25rem;
+}
+.btn-primary-about {
+    color: #fff;
+    background-color: rgba(230,28,49,1);
+    border-color: rgba(230,28,49,1);
+}
+
+.les-profs{
+	text-align:center;
+	font-family: 'corbel';
+	
+}
+
+.card {
+ 
+    border: 0px solid rgba(0,0,0,.125);
+    border-radius: 0;
+}
+
+.card-text{
+	margin-bottom:1em;
+}
+
+.shadow {
+   box-shadow:  0 0 2em rgba(0,0,0,0.2);
+}
+
+
+.bgscolarite {
+	background-image: url('/img/bgscolarite.svg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	/*background-color: rgba(237,237,237,1);*/
+	height: 78rem;
+	z-index:100;
+
+	
+}
+
+.scolarite {
+    position: relative;
+    font-family: 'corbel';
+	text-transform: uppercase;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 35vh;
+    transform: translateY(-50%);
+	margin-bottom: 0.5em;
+	
+	
+}
+
+.hauteur{
+	margin-top: 4rem;
+
+}
+
+
+.bg3{
+	background-image: url('..img/bg3.svg');
+    background-size: 101%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 36em;
+    margin-top:-31em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:0em;
+    z-index: 80;
+	
+}
+
+.finabout{
+	padding-top:15em;
+}
+
+.btn-block {
+    display: block;
+    width: 50%;
+    margin: 2em auto;
+    font-family: 'corbel';
+    /* text-align: center; */
+}
+.casse{
+	text-transform: uppercase;
+}
+
+
+
+/* page contact*/
+
+#map {
+    width: 100%; 
+    height: 50em;
+    margin-top: 0px; 
+    margin-bottom: 40px;
+}
+
+.info-window {
+    font-family: 'Montserrat', sans-serif;
+}
+.info-content {
+    color: #999;
+}
+
+
+
+/*page cursus*/
+
+.bg1 {
+	background-image: url(/img/img1.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 52rem;
+	z-index:1;
+	padding: 0;
+}
+
+
+.tiret {
+	color : red ;
+	font-size : 2em ; 
+	text-align : center ;
+	
+}
+
+/*.baseline {
+	position: relative;
+	font-size: 3rem;
+	color: #fff;
+	margin-top: 35vh;
+	transform: translateY(-50%);
+} */
+
+/*.titre {
+	font-size : 1.2em ;
+	margin-left : 15rem ;
+	line-height: 5rem;
+	color : white ;
+	letter-spacing : 0.2em ;
+}*/
+
+.rouge-cursus {
+	background :#e61c31 ;
+	font-size : 1em ;
+	box-shadow: 0px 4px 12px -1px rgba(0, 0, 0, 0.3) inset;	
+} 
+	
+.txt-cursus {
+	margin-left : 18rem ; 
+	margin-right : 21rem ;
+	color : white ; 
+	column-count : 3 ;
+	column-gap : 6em ; 
+	margin-top: -0.5rem;
+	
+}
+	
+/*h3 {
+	list-style-type : none ;
+	font-size : 1.2em ;
+	margin-left : 15rem ;
+	text-align : center ;
+	letter-spacing : 0.2em ;
+	padding : 1.5rem 0 0 0 ;	
+	color : white ;
+}*/
+
+.gris-cursus  {
+	letter-spacing : 0.2em ;
+	font-size : 1.2em ;
+	height : 4rem ;
+	color : white ;
+	text-align : left ;
+	margin-top : -0.5rem ; 
+
+}
+
+.boite1 {
+	background : #616060 ;
+	border-style : none ;
+	margin: 0 !important ;
+	padding : 0 ;
+}
+
+.boite2 {
+	background : #484645 ;
+	border-style : none ;
+	margin: 0 !important ;
+	padding : 0 ;
+}
+
+.boite3 {
+	background : #323030 ;
+	border-style : none ;
+	margin: 0 !important ;
+	padding : 0 ;
+}
+
+.blanc-cursus {
+    background: white;
+    height: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+}
+
+.titre2-cursus {
+	letter-spacing : 0.2em ;
+	font-size : 1.2em ;
+	height : 4rem ;
+	color : grey ;
+	text-align : left ;
+	margin-top : 3.5rem ;
+	text-align : center ;
+}
+
+.titre3-cursus {
+	letter-spacing : 0.2em ;
+	font-size : 1.2em ;
+	height : 4rem ;
+	color : white ;
+	text-align : left ;
+	margin-top : 2.7rem ;
+	text-align : center ;
+
+}
+
+.image-cursus {
+	width: 20rem;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.blocrouge {
+	background :#e61c31 ; 
+	height : 17rem ; 	
+	padding : 1rem 0 0 0 ;
+}
+.parent {
+	display: flex; /* contexte sur le parent */
+	flex-direction: column; /* direction d'affichage verticale */
+	justify-content: center; /* alignement vertical */
+	font-size : 1em ;	
+	box-shadow: 0px 4px 12px -1px rgba(0, 0, 0, 0.3) inset;
+	color : white ; 
+}
+
+.mb-0 {
+	letter-spacing : 0.2em ;
+	font-size : 1.2em ;
+	height : auto ;
+	color : white ;
+	text-align : left ;
+	margin-left : 15rem ;
+}
+
+.champ-doc {
+	display : block ;
+	margin : auto ; 
+}
+
+.bouton-cursus {
+	margin-top : 0.5rem ;
+	text-align : center ;
+}
+
+.lien-cursus {
+	list-style-type : none ;
+	text-decoration : none ;
+	color : white ;
+}
+
+.a-cursus:hover {
+	list-style-type : none ;
+	text-decoration : none ;
+	color : white ; 
+}
+
+.h2-cursus {
+	font-size : 1.2em ;
+	margin-top : 1.1em ;
+}
 
 
 
