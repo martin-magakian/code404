@@ -104,7 +104,7 @@
 			<div class="card-1 card-actu-1">
 			  <!--<img class="card-img-top" src="..." alt="Card image cap">-->
 			  <div class="card-block1">
-				<p class="card-text content-align-bottom">ACTU 1: LOREM IPSUM</p>
+				<p class="card-text text-actu content-align-bottom">ACTU 1: LOREM IPSUM</p>
 			  </div>
 			</div>
 		</div>	
@@ -112,7 +112,7 @@
 			<div class="card-2 card-actu-2">
 			  <!--<img class="card-img-top" src="..." alt="Card image cap">-->
 			  <div class="card-block2">
-				<p class="card-text content-align-bottom">ACTU 2: LOREM IPSUM</p>
+				<p class="card-text text-actu content-align-bottom">ACTU 2: LOREM IPSUM</p>
 			  </div>
 			</div>
 		</div>	
@@ -125,7 +125,7 @@
 					<div class="card-3 card-actu-3">
 					  <!--<img class="card-img-top" src="..." alt="Card image cap">-->
 					  <div class="card-block3">
-						<p class="card-text content-align-bottom">ACTU 3: LOREM IPSUM</p>
+						<p class="card-text text-actu content-align-bottom">ACTU 3: LOREM IPSUM</p>
 					  </div>
 					</div>
 				</div>
@@ -135,7 +135,7 @@
 					<div class="card-4 card-actu-4">
 					  <!--<img class="card-img-top" src="..." alt="Card image cap">-->
 					  <div class="card-block4">
-							<p class="card-text content-align-bottom">ACTU 4: LOREM IPSUM</p>
+							<p class="card-text text-actu content-align-bottom">ACTU 4: LOREM IPSUM</p>
 					  </div>
 					</div>
 				</div>
@@ -143,7 +143,7 @@
 					<div class="card-5 card-actu-5">
 					  <!--<img class="card-img-top" src="..." alt="Card image cap">-->
 					  <div class="card-block5">
-							<p class="card-text content-align-bottom">ACTU 5: LOREM IPSUM</p>
+							<p class="card-text text-actu content-align-bottom">ACTU 5: LOREM IPSUM</p>
 					  </div>
 					</div>
 				</div>
@@ -153,7 +153,7 @@
 			<div class="card-6 card-actu-6">
 			  <!--<img class="card-img-top" src="..." alt="Card image cap">-->
 			  <div class="card-block6">
-				<p class="card-text content-align-bottom">ACTU 6: LOREM IPSUM</p>
+				<p class="card-text text-actu content-align-bottom">ACTU 6: LOREM IPSUM</p>
 			  </div>
 			</div>
 		</div>	
