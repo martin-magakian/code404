@@ -1,6 +1,4 @@
 <div class="container-fluid background-header">
-
-				
 					  
 			<div class="container">
 				<div class="row">
