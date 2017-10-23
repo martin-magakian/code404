@@ -296,6 +296,15 @@ div.container.partie2 {
 	text-align: center;
 }
 
+.adresse-mail-news {
+	background: #e61c31;
+	color: #fff;
+}
+
+.champ-mail-news {
+    padding-right: 0;
+    padding-left: 0;
+}
 
 
 
