@@ -15,14 +15,14 @@ h3 {
 	letter-spacing: 0.2em;
 }
 
-.container-fluid {
+/*.container-fluid {
     width: 100%;
     /*margin-right: auto;
     margin-left: auto;*/
-    width: 100%;
+    /*width: 100%;
 	padding-right: 0px;
     padding-left: 0px;
-}
+}*/
 
 .container-fluid-header {
 	display: block;
@@ -39,16 +39,24 @@ h3 {
 }
 
 
+.background-header {
+	background-image: url(../img/travailequipe.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 52rem;
+	z-index:1;
+	padding: 0;
+}
 
-.container-fluid {
-	background-image: url(img/travailequipe.png);
+/*.container-fluid {
+	background-image: url(../img/travailequipe.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 52rem;
 	z-index:1;
 	padding: 0;
 	
-}
+}*/
 
 .baseline {
 	position: relative;
@@ -152,7 +160,7 @@ div.container.partie2 {
 	padding-right: 0;
 }
 
-.btn-danger {
+.btn-unique {
 	margin-top: 3rem;
 	font-family : corbel ;
 	background-color: #e61c31;
@@ -209,7 +217,7 @@ div.container.partie2 {
 	padding-right: 18rem;
 }
 
-.card-1, .card-2, .card-3, .card-4, .card-5, .card-6 {
+.card-actu-1, .card-actu-2, .card-actu-3, .card-actu-4, .card-actu-5, .card-actu-6 {
 	box-shadow: 0 0.3rem 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -229,32 +237,32 @@ div.container.partie2 {
 }
 
 .card-block1 {
-	background: url("img/img1-actu.jpg");
+	background: url("../img/img1-actu.jpg");
 	background-position: center;
 }
 
 .card-block2 {
-	background: url("img/img2-actu.jpg");
+	background: url("../img/img2-actu.jpg");
 	background-position: center;
 }
 
 .card-block3 {
-	background: url("img/img3-actu.jpg");
+	background: url("../img/img3-actu.jpg");
 	background-position: center;
 }
 
 .card-block4 {
-	background: url("img/img4-actu.jpg");
+	background: url("../img/img4-actu.jpg");
 	background-position: center;
 }
 
 .card-block5 {
-	background: url("img/img5-actu.jpg");
+	background: url("../img/img5-actu.jpg");
 	background-position: center;
 }
 
 .card-block6 {
-	background: url("img/img6-actu.jpg");
+	background: url("../img/img6-actu.jpg");
 	background-position: center;
 }
 
@@ -300,37 +308,37 @@ div.container.partie2 {
 	}
 	
 	.card-block1 {
-	background: url("img/img1-actu-1480.jpg");
+	background: url("../img/img1-actu-1480.jpg");
 	background-position: center;
 	
 	}
 
 	.card-block2 {
-		background: url("img/img2-actu-1480.jpg");
+		background: url("../img/img2-actu-1480.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block3 {
-		background: url("img/img3-actu.jpg");
+		background: url("../img/img3-actu.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block4 {
-		background: url("img/img4-actu.jpg");
+		background: url("../img/img4-actu.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block5 {
-		background: url("img/img5-actu.jpg");
+		background: url("../img/img5-actu.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block6 {
-		background: url("img/img6-actu.jpg");
+		background: url("../img/img6-actu.jpg");
 		background-position: center;
 	}
 	
@@ -394,37 +402,37 @@ div.container.partie2 {
 	}
 	
 	.card-block1 {
-	background: url("img/img1-actu-1480.jpg");
+	background: url("../img/img1-actu-1480.jpg");
 	background-position: center;
 	
 	}
 
 	.card-block2 {
-		background: url("img/img2-actu-1480.jpg");
+		background: url("../img/img2-actu-1480.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block3 {
-		background: url("img/img3-actu.jpg");
+		background: url("../img/img3-actu.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block4 {
-		background: url("img/img4-actu.jpg");
+		background: url("../img/img4-actu.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block5 {
-		background: url("img/img5-actu.jpg");
+		background: url("../img/img5-actu.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block6 {
-		background: url("img/img6-actu.jpg");
+		background: url("../img/img6-actu.jpg");
 		background-position: center;
 	}
 	
@@ -465,37 +473,37 @@ div.container.partie2 {
 	}
 	
 	.card-block1 {
-	background: url("img/img1-actu-990.jpg");
+	background: url("../img/img1-actu-990.jpg");
 	background-position: center;
 	
 	}
 
 	.card-block2 {
-		background: url("img/img2-actu-990.jpg");
+		background: url("../img/img2-actu-990.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block3 {
-		background: url("img/img3-actu-990.jpg");
+		background: url("../img/img3-actu-990.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block4 {
-		background: url("img/img4-actu-990.jpg");
+		background: url("../img/img4-actu-990.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block5 {
-		background: url("img/img5-actu-990.jpg");
+		background: url("../img/img5-actu-990.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block6 {
-		background: url("img/img6-actu-990.jpg");
+		background: url("../img/img6-actu-990.jpg");
 		background-position: center;
 	}
 	
