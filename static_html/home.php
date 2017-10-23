@@ -159,3 +159,17 @@
 	
 	
 </div>
+
+<div class="container-fluid partie5">
+	<div class="row align-items-center">
+
+		<form class="newsletter-email-home">
+		  <div class="form-group">
+		    <label class="email-bloc-news" for="exampleInputEmail1">Email address</label>
+		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+		  </div>
+		  <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+
+	</div>
+</div>

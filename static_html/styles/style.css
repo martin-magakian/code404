@@ -40,7 +40,7 @@ h3 {
 
 
 .background-header {
-	background-image: url(../img/travailequipe.png);
+	background-image: url(/img/travailequipe.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 52rem;
@@ -237,32 +237,32 @@ div.container.partie2 {
 }
 
 .card-block1 {
-	background: url("../img/img1-actu.jpg");
+	background: url("/img/img1-actu.jpg");
 	background-position: center;
 }
 
 .card-block2 {
-	background: url("../img/img2-actu.jpg");
+	background: url("/img/img2-actu.jpg");
 	background-position: center;
 }
 
 .card-block3 {
-	background: url("../img/img3-actu.jpg");
+	background: url("/img/img3-actu.jpg");
 	background-position: center;
 }
 
 .card-block4 {
-	background: url("../img/img4-actu.jpg");
+	background: url("/img/img4-actu.jpg");
 	background-position: center;
 }
 
 .card-block5 {
-	background: url("../img/img5-actu.jpg");
+	background: url("/img/img5-actu.jpg");
 	background-position: center;
 }
 
 .card-block6 {
-	background: url("../img/img6-actu.jpg");
+	background: url("/img/img6-actu.jpg");
 	background-position: center;
 }
 
@@ -278,7 +278,17 @@ div.container.partie2 {
 }
 
 
+.partie5 {
+	background: #ededed;
+	height: auto;
+	padding: 5rem;
+	text-align: center;
+	width: 100%;
+}
 
+.newsletter-email-home{
+	text-align: center;
+}
 
 
 
@@ -308,37 +318,37 @@ div.container.partie2 {
 	}
 	
 	.card-block1 {
-	background: url("../img/img1-actu-1480.jpg");
+	background: url("/img/img1-actu-1480.jpg");
 	background-position: center;
 	
 	}
 
 	.card-block2 {
-		background: url("../img/img2-actu-1480.jpg");
+		background: url("/img/img2-actu-1480.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block3 {
-		background: url("../img/img3-actu.jpg");
+		background: url("/img/img3-actu.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block4 {
-		background: url("../img/img4-actu.jpg");
+		background: url("/img/img4-actu.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block5 {
-		background: url("../img/img5-actu.jpg");
+		background: url("/img/img5-actu.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block6 {
-		background: url("../img/img6-actu.jpg");
+		background: url("/img/img6-actu.jpg");
 		background-position: center;
 	}
 	
@@ -402,37 +412,37 @@ div.container.partie2 {
 	}
 	
 	.card-block1 {
-	background: url("../img/img1-actu-1480.jpg");
+	background: url("/img/img1-actu-1480.jpg");
 	background-position: center;
 	
 	}
 
 	.card-block2 {
-		background: url("../img/img2-actu-1480.jpg");
+		background: url("/img/img2-actu-1480.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block3 {
-		background: url("../img/img3-actu.jpg");
+		background: url("/img/img3-actu.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block4 {
-		background: url("../img/img4-actu.jpg");
+		background: url("/img/img4-actu.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block5 {
-		background: url("../img/img5-actu.jpg");
+		background: url("/img/img5-actu.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block6 {
-		background: url("../img/img6-actu.jpg");
+		background: url("/img/img6-actu.jpg");
 		background-position: center;
 	}
 	
@@ -473,37 +483,37 @@ div.container.partie2 {
 	}
 	
 	.card-block1 {
-	background: url("../img/img1-actu-990.jpg");
+	background: url("/img/img1-actu-990.jpg");
 	background-position: center;
 	
 	}
 
 	.card-block2 {
-		background: url("../img/img2-actu-990.jpg");
+		background: url("/img/img2-actu-990.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block3 {
-		background: url("../img/img3-actu-990.jpg");
+		background: url("/img/img3-actu-990.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block4 {
-		background: url("../img/img4-actu-990.jpg");
+		background: url("/img/img4-actu-990.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block5 {
-		background: url("../img/img5-actu-990.jpg");
+		background: url("/img/img5-actu-990.jpg");
 		background-position: center;
 		
 	}
 
 	.card-block6 {
-		background: url("../img/img6-actu-990.jpg");
+		background: url("/img/img6-actu-990.jpg");
 		background-position: center;
 	}
 	
