@@ -47,6 +47,11 @@ h3 {
 	
 }
 
+.logo-header img{
+
+	width:116px;
+}
+
 .nav-link {
 	margin-left: 2rem;
 	margin-right: 2rem;
@@ -831,10 +836,7 @@ a.bg3:hover{
  color: white;
 }
 
-/*img .bouton-ninja{
-	width:30px;
-}
-*/
+
 
 
 /* page contact*/
@@ -1285,6 +1287,16 @@ a:visited{
 	
 }
 
+
+/* HEADER AURELIE*/
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0rem; 
+    padding-left: 0rem; 
+}
+
+/*FIN DU HEADER */
+
 @media screen and (max-width:1080px) {
 
 .video-home-bg {
@@ -1472,6 +1484,16 @@ a:visited{
 	
 }
 
+
+/*header aurelie*/
+.nav-link {
+    margin-left: 2rem;
+    margin-right: 0rem;
+}
+
+
+/*fin du header*/
+
 @media screen and (max-width:767px) {
 	
 	.partie1 {
@@ -1508,8 +1530,35 @@ a:visited{
 		opacity: 0.2;
 }
 
+
+/*header*/
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background: 0 0;
+    /*border: 1px solid white;
+    border-radius: .25rem;*/
 }
 
+.navbar-toggler:focus {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background: 0 0;
+    border: none;
+    border-radius: .25rem;
+}
+
+.logo-header img{
+
+	width:50%;
+}
+
+
+}
+/*fin header*/
 @media screen and (max-width:680px) {
 	
 	.partie1 {
