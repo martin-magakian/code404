@@ -31,6 +31,10 @@
 			</div>
 	  </div>
 	</div>
+	<div class="bouton-ninja">
+
+	  <img   src="img/ninjaapropos.svg" alt="ninja code 404">
+	</div>
 </div>
 
 <div class="container-fluid blocwhite">
