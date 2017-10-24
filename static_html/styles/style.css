@@ -844,7 +844,7 @@ a:hover {
 
 
 .bg3{
-	background-image: url('..img/bg3.svg');
+	background-image: url('/img/bg3.svg');
     background-size: 101%;
     background-repeat: no-repeat;
     width: 100%;
@@ -873,15 +873,21 @@ a:hover {
 }
 
 .bouton-ninja{
-	width:100%;
+	width:30%;
 	height: 30rem;
 	background: yellow;
+	position: fixed;
+	right: 0;
 }
 
-img .bouton-ninja{
+a.bg3:hover{
+ color: white;
+}
+
+/*img .bouton-ninja{
 	width:30px;
 }
-
+*/
 
 
 /* page contact*/
@@ -898,6 +904,24 @@ img .bouton-ninja{
 }
 .info-content {
     color: #999;
+}
+
+.checkbox{width:50px}
+.inline {
+display: inline-block;
+}
+label {
+min-width: 120px;
+}
+.titleprghp {
+background:#555;
+height: 46px;
+color: #000;
+font-size: 23px;
+height: 46px;
+line-height: 40px;
+padding: 0 0 0 20px;
+margin: 20px 0 20px;
 }
 
 
