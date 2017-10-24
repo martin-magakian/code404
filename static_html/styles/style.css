@@ -860,6 +860,18 @@ a:hover {
 	text-transform: uppercase;
 }
 
+.bouton-ninja{
+	width:30px;
+	height: 30px;
+	float: right;
+	position: fixed;
+	opacity: 0.2;
+}
+
+img .bouton-ninja{
+	width:30px;
+}
+
 
 
 /* page contact*/
