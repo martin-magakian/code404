@@ -1,13 +1,14 @@
 <header class="container-fluid-header">
 	<div class="container">
 		<nav class="navbar navbar-expand-md no-gutters">
-			<div class="col-4 text-left">
+			<div class="col-4 text-left logo-header">
 			  <a href="/?page=home">
-				<img src="img/logo.svg" alt="image">
+				<img src="img/logo.svg" alt="image" class="logo-header">
 			  </a>
 			</div>
 
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav12" aria-controls="navbarNav12" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav12" aria-controls="navbarNav12" aria-expanded="false" aria-label="Toggle navigation">
+				<img src="/img/menu.svg" >
 			  <span class="navbar-toggler-icon"></span>
 			</button>
 

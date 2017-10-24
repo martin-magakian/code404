@@ -75,27 +75,28 @@
 				  </div>
 			</div>	
 		</div>
-		<a href="#"><button type="button" class="btn btn-danger btn-unique">Prêt à démarrer l'aventure ?</button></a>	
+		<a href="#"><button type="button" class="btn btn-danger btn-unique">Prêt à démarrer l'aventure ?</button></a>
 	</div>
-		<img class="ninja-fond" src="img/ninja-ordi.png">
+	<div class="ninja-fond-img">
+	</div>
 </div>
 
 <div class="container-fluid partie3">
 	<h3> Ce qui t'attend </h3>
 	<div class="container">
 	  <div class="row">
-		<div class="col-4">
-			<img class="picto-partie3" src="img/picto-intensif.png">
+		<div class="col-lg-4 col-md-6 col-xs-12 colonnes-pictos-p3">
+			<img class="picto-partie3" src="img/picto-intensif.svg">
 			<h4 class="titre-picto-p3"> Travail intensif </h4>
 			  <p class="txt-p3"> X heures de cours par semaines. Oublies tes week-end et tes vacances.</p>
 			</div>
-			<div class="col-4">
-			<img class="picto-partie3" src="img/picto-team.png">
+			<div class="col-lg-4 col-md-6 col-xs-12 colonnes-pictos-p3">
+			<img class="picto-partie3" src="img/picto-team.svg">
 			<h4 class="titre-picto-p3"> Super team </h4>
 			 <p class="txt-p3"> Un environement de travail idéal. </p>
 			</div>
-			<div class="col-4">
-			<img class="picto-partie3" src="img/picto-salaire.png">
+			<div class="col-lg-4 col-md-6 col-xs-12 colonnes-pictos-p3 picto-salaire">
+			<img class="picto-partie3" src="img/picto-salaire.svg">
 			<h4 class="titre-picto-p3"> Salaire de rêve </h4>
 			  <p class="txt-p3"> De véritables acteurs du monde du dévelopement web. </p>
 		</div>

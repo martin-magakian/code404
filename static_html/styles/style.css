@@ -47,6 +47,11 @@ h3 {
 	
 }
 
+.logo-header img{
+
+	width:116px;
+}
+
 .nav-link {
 	margin-left: 2rem;
 	margin-right: 2rem;
@@ -179,10 +184,19 @@ div.container.partie2 {
 	background-color: #e61c31;
 }
 
-.ninja-fond {
+
+.ninja-fond-img {
+	margin-left:5rem;
+	background: url("/img/ninja-ordi.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 20rem;
+	width: 50rem;
 	float: right;
 	margin-top: -20rem;
+	z-index: -1;
 }
+
 
 .btn {
     border-radius: 0;
@@ -228,6 +242,7 @@ div.container.partie2 {
 .titre-p4 {
 	margin-bottom: 3rem;
 }
+
 
 .actus {
 	padding-left: 18rem;
@@ -411,11 +426,11 @@ div.container.partie2 {
 	padding:7em;
 }
 
-.text-center{
+/*.text-center{
 	font-family:'corbel';
 	font-size: 1.5em;
 	color: rgba(72,70,69,1);
-}
+}*/
 .GTitre{
 	color: white;
 	font-family:corbel;
@@ -628,17 +643,6 @@ margin: 20px 0 20px;
 
 
 
-/*page cursus*/
-
-.bg1 {
-	background-image: url(/img/img1.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	height: 52rem;
-	z-index:1;
-	padding: 0;
-}
-
 
 <<<<<<< HEAD
 =======
@@ -667,7 +671,7 @@ margin: 20px 0 20px;
 	padding:7em;
 }
 
-.text-center{
+.text-center-apropos{
 	font-family:'corbel';
 	font-size: 1.5em;
 	color: rgba(72,70,69,1);
@@ -842,10 +846,7 @@ a.bg3:hover{
  color: white;
 }
 
-/*img .bouton-ninja{
-	width:30px;
-}
-*/
+
 
 
 /* page contact*/
@@ -869,7 +870,7 @@ a.bg3:hover{
 	background: rgba(238,238,238,1);
 	width: 100%;
     height: auto;
-    padding: 10rem;
+    padding: 5rem;
 }
 .left-cont{
 	color:rgba(72,70,69,1);
@@ -925,7 +926,31 @@ a.bg3:hover{
 
 .input-group-btn:not(:last-child)>.btn, .input-group-btn:not(:last-child)>.btn-group .ctct {
     margin-right: -1px;
-    color: #e62530;
+    color: rgba(72,70,69,1);
+}
+
+.droite-contact{
+	position: relative;
+	display: block;
+	
+	margin: 2rem auto;
+}
+
+a:visited{
+	color:white;
+}
+
+.form-control-contact{
+	border: 1px solid rgba(96,96,96,0);
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #e62530;
+    outline: 0;
 }
 
 
@@ -933,13 +958,7 @@ a.bg3:hover{
 
 
 
-
-
-
-
-
-
-
+/*page cursus*/
 /*page cursus*/
 
 .bg1 {
@@ -952,7 +971,12 @@ a.bg3:hover{
 }
 
 
->>>>>>> 6c75416f992dd05054561b0872ec284dc71ed3f0
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 8a33a691a69e4b6429397caf510f9f3eb9a07c0a
 .tiret {
 	color : red ;
 	font-size : 2em ; 
@@ -960,21 +984,7 @@ a.bg3:hover{
 	
 }
 
-/*.baseline {
-	position: relative;
-	font-size: 3rem;
-	color: #fff;
-	margin-top: 35vh;
-	transform: translateY(-50%);
-} */
 
-/*.titre {
-	font-size : 1.2em ;
-	margin-left : 15rem ;
-	line-height: 5rem;
-	color : white ;
-	letter-spacing : 0.2em ;
-}*/
 
 .rouge-cursus {
 	background :#e61c31 ;
@@ -992,15 +1002,7 @@ a.bg3:hover{
 	
 }
 	
-/*h3 {
-	list-style-type : none ;
-	font-size : 1.2em ;
-	margin-left : 15rem ;
-	text-align : center ;
-	letter-spacing : 0.2em ;
-	padding : 1.5rem 0 0 0 ;	
-	color : white ;
-}*/
+
 
 .gris-cursus  {
 	letter-spacing : 0.2em ;
@@ -1150,12 +1152,13 @@ a.bg3:hover{
 	padding: 0;
 }
 
+
 <<<<<<< HEAD
-<<<<<<< HEAD
+
+=======
+>>>>>>> 8a33a691a69e4b6429397caf510f9f3eb9a07c0a
 /* SUCCESS-STORY */
-=======
-=======
->>>>>>> 6c75416f992dd05054561b0872ec284dc71ed3f0
+
 .error-code-404 {
 	color: #fff;
 	font-family:"corbel";
@@ -1164,8 +1167,23 @@ a.bg3:hover{
 	margin-top: 10rem;
 	transform: translateY(-50%);
 }
+
+.ninja-404 {
+	display: block;
+	position: relative;
+	z-index:2;
+	width: 100%;
+	text-align: center;
+	margin-top:2rem;
+}
 <<<<<<< HEAD
+
 =======
+<<<<<<< HEAD
+
+=======
+>>>>>>> fec0f1b54f215683645982a476aafd19ce6ec28b
+>>>>>>> 8a33a691a69e4b6429397caf510f9f3eb9a07c0a
 
 .ninja-404 {
 	display: block;
@@ -1175,17 +1193,14 @@ a.bg3:hover{
 	text-align: center;
 	margin-top:2rem;
 }
->>>>>>> 6c75416f992dd05054561b0872ec284dc71ed3f0
+<<<<<<< HEAD
 
-.ninja-404 {
-	display: block;
-	position: relative;
-	z-index:2;
-	width: 100%;
-	text-align: center;
-	margin-top:2rem;
-}
->>>>>>> 6c75416f992dd05054561b0872ec284dc71ed3f0
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> fec0f1b54f215683645982a476aafd19ce6ec28b
+>>>>>>> 8a33a691a69e4b6429397caf510f9f3eb9a07c0a
 
 
 .gris-success {
@@ -1204,6 +1219,9 @@ a.bg3:hover{
 	text-align : center ;
 	letter-spacing : 0.2em ;
 }
+
+
+
 
 
 /* MEDIA QUERIES RESPONSIVE */
@@ -1297,6 +1315,16 @@ a.bg3:hover{
 	
 }
 
+
+/* HEADER AURELIE*/
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0rem; 
+    padding-left: 0rem; 
+}
+
+/*FIN DU HEADER */
+
 @media screen and (max-width:1080px) {
 
 .video-home-bg {
@@ -1312,6 +1340,15 @@ a.bg3:hover{
 	text-align:center;
 	box-shadow: 0px 4px 12px -1px rgba(0, 0, 0, 0.3) inset;
 	z-index: 5;
+}
+
+.partie3 {
+	background: #ededed;
+	height: auto;
+	padding: 3rem;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+	text-align:center;
 }
 	
 .actus {
@@ -1423,11 +1460,44 @@ a.bg3:hover{
 	margin-left: 0;
 }
 
-.ninja-fond {
+/*.ninja-fond {
+	float: right;
+	margin-top: -20rem;
+	z-index: -1;
 	opacity: 0.2;
+}*/
+
+.ninja-fond-img {
+	margin-left:5rem;
+	background: url("/img/ninja-ordi-2.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 20rem;
+	width: 50rem;
+	float: right;
+	margin-top: -20rem;
+	z-index: -1;
 }
 
-	
+
+.partie3 {
+	background: #ededed;
+	height: auto;
+	padding: 5rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	text-align:center;
+}
+
+.colonnes-pictos-p3 {
+	height:400px;
+}
+
+.picto-salaire {
+	text-align:center;
+	margin: auto;
+}
+
 .partie4 {
 	background: #fff;
 	height: auto;
@@ -1484,6 +1554,16 @@ a.bg3:hover{
 	
 }
 
+
+/*header aurelie*/
+.nav-link {
+    margin-left: 2rem;
+    margin-right: 0rem;
+}
+
+
+/*fin du header*/
+
 @media screen and (max-width:767px) {
 	
 	.partie1 {
@@ -1516,12 +1596,62 @@ a.bg3:hover{
 		margin-left: 0;
 }
 
-	.ninja-fond {
-		opacity: 0.2;
+.ninja-fond-img {
+	margin-left:5rem;
+	background: url("/img/ninja-ordi-2.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 20rem;
+	width: 50rem;
+	float: right;
+	margin-top: -20rem;
+	z-index: -1;
 }
 
+<<<<<<< HEAD
+.partie3 {
+	background: #ededed;
+	height: auto;
+	padding: 5rem;
+	text-align:center;
 }
 
+.colonnes-pictos-p3 {
+		height:300px;
+	}
+
+=======
+
+/*header*/
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background: 0 0;
+    /*border: 1px solid white;
+    border-radius: .25rem;*/
+>>>>>>> 8a33a691a69e4b6429397caf510f9f3eb9a07c0a
+}
+
+.navbar-toggler:focus {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background: 0 0;
+    border: none;
+    border-radius: .25rem;
+}
+
+.logo-header img{
+
+	width:50%;
+	margin-left: 33px;
+}
+
+
+}
+/*fin header*/
 @media screen and (max-width:680px) {
 	
 	.partie1 {
@@ -1540,6 +1670,26 @@ a.bg3:hover{
 		padding-right: 2rem;
 	}
 
+	.ninja-fond-img {
+	margin-left:5rem;
+	background: url("/img/ninja-ordi-2.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 20rem;
+	width: 50rem;
+	float: right;
+	margin-top: -20rem;
+	z-index: -1;
+	}
+
+	.partie3 {
+	background: #ededed;
+	height: auto;
+	padding: 2rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	text-align:center;
+	}
 	
 	.partie4 {
 		background: #fff;
@@ -1549,6 +1699,8 @@ a.bg3:hover{
 		padding-bottom: 3rem;
 		text-align:center;
 	}
+
+
 	
 	.actus {
 		padding-left: 0;
@@ -1574,8 +1726,43 @@ a.bg3:hover{
     	margin-right: -0px;
     	margin-left: -0px;
 	}
+
+.logo-header img{
+
+	width:50%;
+	margin-left: 33px;
+}
+.navbar {
+    
+     padding: 0.2rem; 
+}
+
 	
 }
+
+@media screen and (max-width:560px) {
+
+	.partie5 {
+	    background: #ededed;
+	    height: auto;
+	    padding-top: 5rem;
+	    padding-bottom: 5rem;
+	    padding: 2rem;
+	    text-align: center;
+	    width: 100%;
+	}
+
+	.titre-p5 {
+		margin-bottom: 1rem;
+	}
+
+	.champ-txt-mail-home {
+		width:15rem;
+
+	}
+
+}
+
 
 @media screen and (max-width:380px) {
 	
@@ -1605,6 +1792,19 @@ a.bg3:hover{
 	padding-right: 0;
 }
 	
+.ninja-fond-img {
+	display: none;
+	}
+
+.partie3 {
+	background: #ededed;
+	height: auto;
+	padding: 2rem;
+	padding-top:5rem;
+	padding-bottom: 5rem;
+	text-align:center;
+}
+
 	.partie4 {
 	background: #fff;
 	height: auto;
@@ -1633,7 +1833,26 @@ a.bg3:hover{
 		height: 15rem;
 		margin-top:1.6rem;
 	}
+<<<<<<< HEAD
 	
+	.titre-p5 {
+		margin-bottom: 1rem;
+	}
+
+
+=======
+
+.logo-header img{
+
+	width:50%;
+	margin-left: 33px;
+}
+
+.navbar {
+    
+     padding: 0rem; 
+}
+>>>>>>> 8a33a691a69e4b6429397caf510f9f3eb9a07c0a
 }
 
 
@@ -1667,6 +1886,19 @@ a.bg3:hover{
 	padding-left: 0;
 	padding-right: 0;
 }
+
+.partie3 {
+	background: #ededed;
+	height: auto;
+	padding: 0;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	text-align:center;
+}
+
+.colonnes-pictos-p3 {
+	height:400px;
+	}
 	
 		.partie4 {
 	background: #fff;
@@ -1675,12 +1907,18 @@ a.bg3:hover{
 	padding-top: 5rem;
 	padding-bottom: 2rem;
 	text-align:center;
-}
+	}
 	
+
+	.champ-txt-mail-home {
+		width:10rem;
+
+	}
+
 	.actus {
 	padding-left: 0;
 	padding-right: 0;
-}
+	}
 
 	.card-block1, .card-block2, .card-block6 {
 		height: 15rem;
@@ -1697,6 +1935,11 @@ a.bg3:hover{
 		margin-top:1.6rem;
 	}
 	
+.navbar {
+    
+     padding: 0rem; 
+}
+
 }
 
 
