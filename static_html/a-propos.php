@@ -24,11 +24,11 @@
 		<div class="container">
 		 	<div class="row">
 				<div class="col">
-					<h2 class="text-center GTitre">BIENVENU CHEZ CODE_404</h2>
-					<p class="text-center gras white">Tu rêves de devenir développeur depuis ton plus jeune âge ? </p>
-					<p class="text-center white">Code_404 c’est avant-tout un lieu de partage de connaissances</p> 
-					<p class="text-center white">où les grands maîtres développeurs qui t’accompagnerons durant ces 3 ans</p> 
-					<p class="text-center white">vont te donner les clés de la réusite.</p> 
+					<h2 class="text-center text-center-apropos GTitre">BIENVENU CHEZ CODE_404</h2>
+					<p class="text-center gras text-center-apropos white">Tu rêves de devenir développeur depuis ton plus jeune âge ? </p>
+					<p class="text-center text-center-apropos white">Code_404 c’est avant-tout un lieu de partage de connaissances</p> 
+					<p class="text-center text-center-apropos white">où les grands maîtres développeurs qui t’accompagnerons durant ces 3 ans</p> 
+					<p class="text-center text-center-apropos white">vont te donner les clés de la réusite.</p> 
 				</div>
 		 	</div>
 		</div>
@@ -123,14 +123,14 @@
 	<div class="container haut white">
 		<div class="row haut">
 			<div class="col haut">
-				<p class="text-center white">1ère année</p>
-				<p class="text-center white">2ème année</p>
-				<p class="text-center white">3ème année</p>
+				<p class="text-center text-center-apropos white">1ère année</p>
+				<p class="text-center text-center-apropos white">2ème année</p>
+				<p class="text-center text-center-apropos white">3ème année</p>
 			</div>
 			<div class="col haut">
-				<p class="text-center white">9500 €</p>
-				<p class="text-center white">9500 €</p>
-				<p class="text-center white">9500 €</p>
+				<p class="text-center text-center-apropos white">9500 €</p>
+				<p class="text-center text-center-apropos white">9500 €</p>
+				<p class="text-center text-center-apropos white">9500 €</p>
 			</div>
 		</div>
 	</div>
@@ -143,10 +143,10 @@
 	  <div class="row">
 			<div class="col">
 				
-				<p class="text-center ">Après ces 3 années d’apprentissage intense avec des professionels </p>
-				<p class="text-center ">du développement web tu seras apte à intégrer les plus grandes entreprises </p> 
-				<p class="text-center ">tels que Google, twitter, ... </p> 
-				<p class="text-center">dans lesquelles tes capacités de développeur ninja expérimenté seront un atout.</p> 
+				<p class="text-center text-center-apropos ">Après ces 3 années d’apprentissage intense avec des professionels </p>
+				<p class="text-center text-center-apropos ">du développement web tu seras apte à intégrer les plus grandes entreprises </p> 
+				<p class="text-center text-center-apropos">tels que Google, twitter, ... </p> 
+				<p class="text-center text-center-apropos">dans lesquelles tes capacités de développeur ninja expérimenté seront un atout.</p> 
 			</div>
 	  </div>
 	
