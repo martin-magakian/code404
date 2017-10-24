@@ -925,7 +925,7 @@ a.bg3:hover{
 
 .input-group-btn:not(:last-child)>.btn, .input-group-btn:not(:last-child)>.btn-group .ctct {
     margin-right: -1px;
-    color: #e62530;
+    color: rgba(72,70,69,1);
 }
 
 .droite-contact{
@@ -939,8 +939,18 @@ a:visited{
 	color:white;
 }
 
+.form-control-contact{
+	border: 1px solid rgba(96,96,96,0);
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
 
-
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #e62530;
+    outline: 0;
+}
 
 
 
