@@ -1452,7 +1452,7 @@ background-position: center;
 	padding-right: 10rem;
 }
 
-	.card-block1, .card-block2, .card-block6 {
+	.card-block1, .-block2, .card-block6 {
 		height: 20rem;
 		margin-top:2rem;
 	}
