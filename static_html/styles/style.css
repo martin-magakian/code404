@@ -1554,6 +1554,7 @@ a:visited{
 .logo-header img{
 
 	width:50%;
+	margin-left: 33px;
 }
 
 
@@ -1611,6 +1612,17 @@ a:visited{
     	margin-right: -0px;
     	margin-left: -0px;
 	}
+
+.logo-header img{
+
+	width:50%;
+	margin-left: 33px;
+}
+.navbar {
+    
+     padding: 0.2rem; 
+}
+
 	
 }
 
@@ -1670,7 +1682,17 @@ a:visited{
 		height: 15rem;
 		margin-top:1.6rem;
 	}
-	
+
+.logo-header img{
+
+	width:50%;
+	margin-left: 33px;
+}
+
+.navbar {
+    
+     padding: 0rem; 
+}
 }
 
 
@@ -1734,6 +1756,11 @@ a:visited{
 		margin-top:1.6rem;
 	}
 	
+.navbar {
+    
+     padding: 0rem; 
+}
+
 }
 
 
