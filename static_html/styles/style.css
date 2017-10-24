@@ -1160,7 +1160,33 @@ a.bg3:hover{
 /* PAGE 404 - NOT FOUND */
 
 
+.corps-page-404 {
+	display: block;
+	background-image: url(/img/fond-404.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: auto;
+	z-index:1;
+	padding: 0;
+}
 
+.error-code-404 {
+	color: #fff;
+	font-family:"corbel";
+	position: relative;
+	font-size: 3rem;
+	margin-top: 10rem;
+	transform: translateY(-50%);
+}
+
+.ninja-404 {
+	display: block;
+	position: relative;
+	z-index:2;
+	width: 100%;
+	text-align: center;
+	margin-top:2rem;
+}
 
 
 
