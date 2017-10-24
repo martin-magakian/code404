@@ -1,3 +1,14 @@
+<div class="video-home-bg" data-vide-bg="https://www.ironhack.com/assets/videos/ironhack-video-3">
+	<div class="row justify-content-center align-items-center">
+		<div class="col-10 " style="text-align: center">
+			<h1 class="baseline">  &#60h1&#62 l'école qui sort des codes &#60/h1&#62 </h1>
+		</div>
+	</div>
+</div>
+
+
+<!-- ANCIEN HEADER
+
 <div class="container-fluid background-header">
 					  
 			<div class="container">
@@ -14,7 +25,8 @@
 					</div>
 				</div>
 			</div>
-</div>
+</div> FIN ANCIEN HEADER-->
+
 		
 <div class="container-fluid partie1">
 	<div class="container">
@@ -42,28 +54,30 @@
 		<img src="img/img-diagonale.svg">
 </div>
 
-<div class="container partie2">
-
-	<h3> Ce qui nous rend unique </h3>
-	<div class="row unique">
-		<div class="col-6">
-			   <div class="unique-p1">
-				<p>méthode de travail en bootcamps</p>
-				<p>véritables projets</p>
-				<p>accessible avec ou sans BAC</p>
-				<p>travail d’équipe</p>
-			  </div>
+<div class="container-fluid box-partie2">
+	<div class="container partie2">
+		<h3> Ce qui nous rend unique </h3>
+		<div class="row unique">
+			<div class="col-6">
+				   <div class="unique-p1">
+					<p>méthode de travail en bootcamps</p>
+					<p>véritables projets</p>
+					<p>accessible avec ou sans BAC</p>
+					<p>travail d’équipe</p>
+				  </div>
+			</div>
+			<div class="col-6">
+				  <div class="unique-p1">
+					<p>effectifs de 20</p>
+					<p>1 à 2 profs par classes</p>
+					<p>esprit dynamique</p>
+					<p>maitrise des outils et technologies</p>
+				  </div>
+			</div>	
 		</div>
-		<div class="col-6">
-			  <div class="unique-p1">
-				<p>effectifs de 20</p>
-				<p>1 à 2 profs par classes</p>
-				<p>esprit dynamique</p>
-				<p>maitrise des outils et technologies</p>
-			  </div>
-		</div>	
+		<a href="#"><button type="button" class="btn btn-danger btn-unique">Prêt à démarrer l'aventure ?</button></a>	
 	</div>
-	<a href="#"><button type="button" class="btn btn-danger btn-unique">Prêt à démarrer l'aventure ?</button></a>	
+	<img class="ninja-fond" src="img/ninja-ordi.png">
 </div>
 
 <div class="container-fluid partie3">
@@ -164,15 +178,12 @@
 	<div class="row text-center">
 
 		<h3 class="titre-p5"> Tiens toi informé </h3>
-	<form name="form4" action="" class="champ-doc-home text-center">
-		<input class="btn-mail-home" type="button" name="bouton" value="Valider" onclick="ValiderMail(this.form)">
-		<input type="texte" name="mail">
-	</form>
-	<div class="bouton-cursus">
-		<button type="button" class="btn btn-danger" class="text-center" > Me tenir informé </button>
+		<form name="form4" action="" class="champ-doc-home text-center">
+			<input class="champ-txt-mail-home" type="texte" name="mail">
+		</form>
+		<div class="bouton-news-home">
+			<button type="button" class="btn btn-danger" class="text-center"> Recevoir la newsletter </button>
+		</div>	
 	</div>	
-</div>	
-
-	</div>
 
 </div>
