@@ -411,11 +411,11 @@ div.container.partie2 {
 	padding:7em;
 }
 
-.text-center{
+/*.text-center{
 	font-family:'corbel';
 	font-size: 1.5em;
 	color: rgba(72,70,69,1);
-}
+}*/
 .GTitre{
 	color: white;
 	font-family:corbel;
@@ -667,7 +667,7 @@ margin: 20px 0 20px;
 	padding:7em;
 }
 
-.text-center{
+.text-center-apropos{
 	font-family:'corbel';
 	font-size: 1.5em;
 	color: rgba(72,70,69,1);
@@ -869,7 +869,7 @@ a.bg3:hover{
 	background: rgba(238,238,238,1);
 	width: 100%;
     height: auto;
-    padding: 10rem;
+    padding: 5rem;
 }
 .left-cont{
 	color:rgba(72,70,69,1);
@@ -928,9 +928,16 @@ a.bg3:hover{
     color: #e62530;
 }
 
+.droite-contact{
+	position: relative;
+	display: block;
+	
+	margin: 2rem auto;
+}
 
-
-
+a:visited{
+	color:white;
+}
 
 
 
@@ -952,7 +959,7 @@ a.bg3:hover{
 }
 
 
->>>>>>> 6c75416f992dd05054561b0872ec284dc71ed3f0
+
 .tiret {
 	color : red ;
 	font-size : 2em ; 
@@ -960,21 +967,7 @@ a.bg3:hover{
 	
 }
 
-/*.baseline {
-	position: relative;
-	font-size: 3rem;
-	color: #fff;
-	margin-top: 35vh;
-	transform: translateY(-50%);
-} */
 
-/*.titre {
-	font-size : 1.2em ;
-	margin-left : 15rem ;
-	line-height: 5rem;
-	color : white ;
-	letter-spacing : 0.2em ;
-}*/
 
 .rouge-cursus {
 	background :#e61c31 ;
@@ -992,15 +985,7 @@ a.bg3:hover{
 	
 }
 	
-/*h3 {
-	list-style-type : none ;
-	font-size : 1.2em ;
-	margin-left : 15rem ;
-	text-align : center ;
-	letter-spacing : 0.2em ;
-	padding : 1.5rem 0 0 0 ;	
-	color : white ;
-}*/
+
 
 .gris-cursus  {
 	letter-spacing : 0.2em ;
@@ -1150,12 +1135,9 @@ a.bg3:hover{
 	padding: 0;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 /* SUCCESS-STORY */
-=======
-=======
->>>>>>> 6c75416f992dd05054561b0872ec284dc71ed3f0
+
 .error-code-404 {
 	color: #fff;
 	font-family:"corbel";
@@ -1164,8 +1146,6 @@ a.bg3:hover{
 	margin-top: 10rem;
 	transform: translateY(-50%);
 }
-<<<<<<< HEAD
-=======
 
 .ninja-404 {
 	display: block;
@@ -1175,7 +1155,7 @@ a.bg3:hover{
 	text-align: center;
 	margin-top:2rem;
 }
->>>>>>> 6c75416f992dd05054561b0872ec284dc71ed3f0
+
 
 .ninja-404 {
 	display: block;
@@ -1185,7 +1165,7 @@ a.bg3:hover{
 	text-align: center;
 	margin-top:2rem;
 }
->>>>>>> 6c75416f992dd05054561b0872ec284dc71ed3f0
+
 
 
 .gris-success {
