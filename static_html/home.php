@@ -161,14 +161,20 @@
 </div>
 
 <div class="container-fluid partie5">
-	<div class="row align-items-center">
+	<div class="row text-center">
 
 		<form class="newsletter-email-home">
 		  <div class="form-group">
-		    <label class="email-bloc-news" for="exampleInputEmail1">Email address</label>
-		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+		  	<div class="row">
+		  		<div class="col adresse-mail-news">
+		    		<label class="email-bloc-news" for="exampleInputEmail1">Email</label>
+		   		 </div>
+		   		 <div class="col champ-mail-news">
+		    		<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+		    	</div>
+			</div>
 		  </div>
-		  <button type="submit" class="btn btn-primary">Submit</button>
+		  <button type="submit" class="btn btn-danger">Submit</button>
 		</form>
 
 	</div>
