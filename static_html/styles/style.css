@@ -628,17 +628,6 @@ margin: 20px 0 20px;
 
 
 
-/*page cursus*/
-
-.bg1 {
-	background-image: url(/img/img1.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	height: 52rem;
-	z-index:1;
-	padding: 0;
-}
-
 
 <<<<<<< HEAD
 =======
@@ -958,6 +947,7 @@ a:visited{
 
 
 /*page cursus*/
+/*page cursus*/
 
 .bg1 {
 	background-image: url(/img/img1.png);
@@ -967,6 +957,8 @@ a:visited{
 	z-index:1;
 	padding: 0;
 }
+
+
 
 
 
