@@ -865,6 +865,7 @@ a.bg3:hover{
 }
 
 .bg-contact{
+
 	background: rgba(238,238,238,1);
 	width: 100%;
     height: auto;
@@ -873,6 +874,10 @@ a.bg3:hover{
 .left-cont{
 	color:rgba(72,70,69,1);
 	margin-bottom: 2rem;
+	text-transform: uppercase;	
+}
+.phone-input{
+	margin-bottom:8px;
 }
 .left-contact {
     margin-top: 44px;
@@ -881,16 +886,47 @@ a.bg3:hover{
 .left-contact2 {
    margin-top: 10px;
 }
+.lc{
+	font-family:'typologo';
+}
 
 
 .form-contat{
 
 }
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: black;
+    text-align: left;
+    list-style: none;
+    background-color: white;
+    background-clip: padding-box;
+    border: 1px solid white;
+    border-radius: 0rem;
+}
 
+.form-contat ul>li>a {
+    color: black;
+    font-size: 1.2rem;
+}
+.form-contat ul>li>a:hover {
+    color: #e62530;
+    font-size: 1.2rem;
+}
 
-
-
-
+.input-group-btn:not(:last-child)>.btn, .input-group-btn:not(:last-child)>.btn-group .ctct {
+    margin-right: -1px;
+    color: #e62530;
+}
 
 
 
