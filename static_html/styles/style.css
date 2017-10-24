@@ -24,6 +24,15 @@ body {
 	
 }
 
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: -15px;
+}
+
 h3 {
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
