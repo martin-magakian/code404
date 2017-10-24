@@ -163,19 +163,16 @@
 <div class="container-fluid partie5">
 	<div class="row text-center">
 
-		<form class="newsletter-email-home">
-		  <div class="form-group">
-		  	<div class="row">
-		  		<div class="col adresse-mail-news">
-		    		<label class="email-bloc-news" for="exampleInputEmail1">Email</label>
-		   		 </div>
-		   		 <div class="col champ-mail-news">
-		    		<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-		    	</div>
-			</div>
-		  </div>
-		  <button type="submit" class="btn btn-danger">Submit</button>
-		</form>
+		<h3 class="titre-p5"> Tiens toi informé </h3>
+	<form name="form4" action="" class="champ-doc-home text-center">
+		<input class="btn-mail-home" type="button" name="bouton" value="Valider" onclick="ValiderMail(this.form)">
+		<input type="texte" name="mail">
+	</form>
+	<div class="bouton-cursus">
+		<button type="button" class="btn btn-danger" class="text-center" > Me tenir informé </button>
+	</div>	
+</div>	
 
 	</div>
+
 </div>

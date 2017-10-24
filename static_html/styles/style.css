@@ -296,16 +296,19 @@ div.container.partie2 {
 	text-align: center;
 }
 
-.adresse-mail-news {
-	background: #e61c31;
-	color: #fff;
-}
 
 .champ-mail-news {
     padding-right: 0;
     padding-left: 0;
 }
 
+.btn-mail-home {
+	background: #e61c31;
+}
+
+.champ-doc-home {
+	padding-top: 10rem;
+}
 
 
 @media screen and (max-width:1480px) {
@@ -406,60 +409,60 @@ div.container.partie2 {
 	z-index: 5;
 }
 	
-	.actus {
+.actus {
 	padding-left: 5rem;
 	padding-right: 5rem;
 }
 
-	.card-block1, .card-block2, .card-block6 {
+.card-block1, .card-block2, .card-block6 {
 		height: 20rem;
 		margin-top:2rem;
-	}
+}
 
-	.card-block3 {
+.card-block3 {
 		height: 9.2rem;
 		margin-top:2rem;
-	}
+}
 
-	.card-block4, .card-block5 {
+.card-block4, .card-block5 {
 		height: 9.2rem;
 		margin-top:1.6rem;
-	}
+}
 	
-	.card-block1 {
+.card-block1 {
 	background: url("/img/img1-actu-1480.jpg");
 	background-position: center;
 	
-	}
+}
 
-	.card-block2 {
+.card-block2 {
 		background: url("/img/img2-actu-1480.jpg");
 		background-position: center;
 		
-	}
+}
 
-	.card-block3 {
+.card-block3 {
 		background: url("/img/img3-actu.jpg");
 		background-position: center;
 		
-	}
+}
 
-	.card-block4 {
+.card-block4 {
 		background: url("/img/img4-actu.jpg");
 		background-position: center;
 		
-	}
+}
 
-	.card-block5 {
+.card-block5 {
 		background: url("/img/img5-actu.jpg");
 		background-position: center;
 		
-	}
+}
 
-	.card-block6 {
+.card-block6 {
 		background: url("/img/img6-actu.jpg");
 		background-position: center;
-	}
+}
 	
 }
 
@@ -492,45 +495,45 @@ div.container.partie2 {
 	padding-right: 3rem;
 }
 
-	.card-block1, .card-block2, .card-block6, .card-block3, .card-block4, .card-block5  {
+.card-block1, .card-block2, .card-block6, .card-block3, .card-block4, .card-block5  {
 		height: 20rem;
 		margin-top:2rem;
-	}
+}
 	
-	.card-block1 {
+.card-block1 {
 	background: url("/img/img1-actu-990.jpg");
 	background-position: center;
 	
-	}
+}
 
-	.card-block2 {
+.card-block2 {
 		background: url("/img/img2-actu-990.jpg");
 		background-position: center;
 		
-	}
+}
 
-	.card-block3 {
+.card-block3 {
 		background: url("/img/img3-actu-990.jpg");
 		background-position: center;
 		
-	}
+}
 
-	.card-block4 {
+.card-block4 {
 		background: url("/img/img4-actu-990.jpg");
 		background-position: center;
 		
-	}
+}
 
-	.card-block5 {
+.card-block5 {
 		background: url("/img/img5-actu-990.jpg");
 		background-position: center;
 		
-	}
+}
 
-	.card-block6 {
+.card-block6 {
 		background: url("/img/img6-actu-990.jpg");
 		background-position: center;
-	}
+}
 	
 }
 
@@ -867,6 +870,16 @@ a:hover {
 }
 .casse{
 	text-transform: uppercase;
+}
+
+.bouton-ninja{
+	width:100%;
+	height: 30rem;
+	background: yellow;
+}
+
+img .bouton-ninja{
+	width:30px;
 }
 
 
