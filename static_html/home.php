@@ -115,7 +115,7 @@
 		<div class="col-lg-4 col-sm-12">
 			<div class="card-1 card-actu-1">
 			  <!--<img class="card-img-top" src="..." alt="Card image cap">-->
-			  <div class="card-block1">
+			  <div class="card-img1">
 				<p class="card-text text-actu content-align-bottom">ACTU 1: LOREM IPSUM</p>
 			  </div>
 			</div>
