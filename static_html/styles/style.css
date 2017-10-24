@@ -870,11 +870,9 @@ a:hover {
 }
 
 .bouton-ninja{
-	width:30px;
-	height: 30px;
-	float: right;
-	position: fixed;
-	opacity: 0.2;
+	width:100%;
+	height: 30rem;
+	background: yellow;
 }
 
 img .bouton-ninja{

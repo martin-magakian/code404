@@ -31,9 +31,11 @@
 			</div>
 	  </div>
 	</div>
-	<div class="bouton-ninja">
-
-	  <img   src="img/ninjaapropos.svg" alt="ninja code 404">
+	<!-- <div class="bouton-ninja"> -->
+	<div class="container bouton-ninja">
+		<div class="row">
+	  		<img   src="img/ninjaapropos.svg" alt="ninja code 404">
+	  	</div>
 	</div>
 </div>
 
