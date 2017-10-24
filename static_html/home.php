@@ -31,18 +31,18 @@
 <div class="container-fluid partie1">
 	<div class="container">
 	  <div class="row">
-		<div class="col-lg-4 col-sm-12">
+		<div class="col-lg-4 col-md-6 col-xs-12 colonnes-pictos-p1">
 			<img class="picto-partie1" src="img/picto-dev-confirme.svg">
 			<h4 class="titre-picto-p1"> Developpeur confirmé </h4>
 			  <p class="txt-p1"> Des langages importants : Javascript, C/C++, Python, PHP, ...</p>
 			</div>
-			<div class="col-lg-4 col-sm-12">
+			<div class="col-lg-4 col-md-6 col-xs-12 colonnes-pictos-p1">
 			<img class="picto-partie1" src="img/picto-emploi-sortie.svg">
 			<h4 class="titre-picto-p1"> Emploi à la sortie </h4>
 			 <p class="txt-p1"> Un travail à la hauteur de tes attentes </p>
 			</div>
-			<div class="col-lg-4 col-sm-12">
-			<img class="picto-partie1" src="img/picto-profs.svg">
+			<div class="col-lg-4 col-md-6 col-xs-12 colonnes-pictos-p1 picto-profs-co">
+			<img class="picto-partie1 picto-partie1-3" src="img/picto-profs.svg">
 			<h4 class="titre-picto-p1"> Profs connectés </h4>
 			  <p class="txt-p1"> De véritables acteurs du monde du dévelopement web. </p>
 		</div>
@@ -58,26 +58,26 @@
 	<div class="container partie2">
 		<h3> Ce qui nous rend unique </h3>
 		<div class="row unique">
-			<div class="col-6">
+			<div class="col-lg-6 col-sm-12">
 				   <div class="unique-p1">
-					<p>méthode de travail en bootcamps</p>
-					<p>véritables projets</p>
-					<p>accessible avec ou sans BAC</p>
-					<p>travail d’équipe</p>
+					<p class="txt-unique">méthode de travail en bootcamps</p>
+					<p class="txt-unique">véritables projets</p>
+					<p class="txt-unique">accessible avec ou sans BAC</p>
+					<p class="txt-unique">travail d’équipe</p>
 				  </div>
 			</div>
-			<div class="col-6">
+			<div class="col-lg-6 col-sm-12">
 				  <div class="unique-p1">
-					<p>effectifs de 20</p>
-					<p>1 à 2 profs par classes</p>
-					<p>esprit dynamique</p>
-					<p>maitrise des outils et technologies</p>
+					<p class="txt-unique">effectifs de 20</p>
+					<p class="txt-unique">1 à 2 profs par classes</p>
+					<p class="txt-unique">esprit dynamique</p>
+					<p class="txt-unique">maitrise des outils et technologies</p>
 				  </div>
 			</div>	
 		</div>
 		<a href="#"><button type="button" class="btn btn-danger btn-unique">Prêt à démarrer l'aventure ?</button></a>	
 	</div>
-	<img class="ninja-fond" src="img/ninja-ordi.png">
+		<img class="ninja-fond" src="img/ninja-ordi.png">
 </div>
 
 <div class="container-fluid partie3">
