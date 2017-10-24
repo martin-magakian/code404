@@ -888,11 +888,9 @@ a:hover {
 }
 
 .bouton-ninja{
-	width:30px;
-	height: 30px;
-	float: right;
-	position: fixed;
-	opacity: 0.2;
+	width:100%;
+	height: 30rem;
+	background: yellow;
 }
 
 img .bouton-ninja{
@@ -1041,7 +1039,7 @@ img .bouton-ninja{
 }
 
 .image-cursus {
-	width: 80%;
+	width: 62%;
 	display: block;
     margin-left: auto;
     margin-right: auto
@@ -1097,6 +1095,21 @@ img .bouton-ninja{
 	margin-top : 1.1em ;
 }
 
+
+.mailcursus {
+	width : 11.03em ;
+}
+
+
+.validercursus {
+	height : 3em;
+	font-size : 0.5em;
+}
+
+.docucursus {
+	width : 20em !important;
+	border-radius: 0.1em !important;
+}
 
 
 
