@@ -1171,8 +1171,11 @@ a.bg3:hover{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* SUCCESS-STORY */
 =======
+=======
+>>>>>>> 6c75416f992dd05054561b0872ec284dc71ed3f0
 .error-code-404 {
 	color: #fff;
 	font-family:"corbel";
@@ -1181,6 +1184,18 @@ a.bg3:hover{
 	margin-top: 10rem;
 	transform: translateY(-50%);
 }
+<<<<<<< HEAD
+=======
+
+.ninja-404 {
+	display: block;
+	position: relative;
+	z-index:2;
+	width: 100%;
+	text-align: center;
+	margin-top:2rem;
+}
+>>>>>>> 6c75416f992dd05054561b0872ec284dc71ed3f0
 
 .ninja-404 {
 	display: block;
