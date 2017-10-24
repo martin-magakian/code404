@@ -89,11 +89,11 @@
 	<h2 class=" h2-cursus titre3-cursus"> 
 		BESOIN D'INFORMATIONS ?
 	</h2>
-	<form name="form4" action="" class="champ-doc text-center">
-		<input type="texte" name="mail">
-		<input type="button" name="bouton" value="Valider" onclick="ValiderMail(this.form)">
+	<form name="form4" action="" class="champ-doc text-center ">
+		<input type="texte" name="mail" class="mailcursus">
+		<input type="button" name="bouton" value="Valider" class="validercursus" onclick="ValiderMail(this.form)">
 	</form>
 	<div class="bouton-cursus">
-		<button type="button" class="btn btn-secondary" class="text-center" >Recevoir la documentation</button>
+		<button type="button" class="btn btn-secondary docucursus" class="text-center " >Recevoir la documentation</button>
 	</div>	
 </div>
