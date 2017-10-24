@@ -15,6 +15,9 @@
 <!-- Jquery pour video home header-->
 <script src="script/jquery.vide.js"></script>
 
+<!-- script (lien) pour vidéo success-story-->
+<script src="https://cdn.plyr.io/2.0.16/plyr.js"></script>
+
 <!-- maxence 
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 -->
@@ -23,7 +26,7 @@
   <link rel="stylesheet" href="styles/style.css">
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
-
+<link rel="stylesheet" href="https://cdn.plyr.io/2.0.16/plyr.css">
   
 </head>
 <body>
@@ -53,7 +56,8 @@
 
 
 
+<!-- SUCCESS-STORY (doit se trouver avant la fermeture de la balise body) -->
+<script>plyr.setup();</script>
 
-	
 </body>
 </html>

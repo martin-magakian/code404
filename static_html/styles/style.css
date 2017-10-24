@@ -859,7 +859,7 @@ a:hover {
 
 
 .bg3{
-	background-image: url('..img/bg3.svg');
+	background-image: url('/img/bg3.svg');
     background-size: 101%;
     background-repeat: no-repeat;
     width: 100%;
@@ -888,15 +888,21 @@ a:hover {
 }
 
 .bouton-ninja{
-	width:100%;
+	width:30%;
 	height: 30rem;
 	background: yellow;
+	position: fixed;
+	right: 0;
 }
 
-img .bouton-ninja{
+a.bg3:hover{
+ color: white;
+}
+
+/*img .bouton-ninja{
 	width:30px;
 }
-
+*/
 
 
 /* page contact*/
@@ -905,7 +911,7 @@ img .bouton-ninja{
     width: 100%; 
     height: 50em;
     margin-top: 0px; 
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 .info-window {
@@ -914,6 +920,44 @@ img .bouton-ninja{
 .info-content {
     color: #999;
 }
+
+.bg-contact{
+	background: rgba(238,238,238,1);
+	width: 100%;
+    height: auto;
+    padding: 10rem;
+}
+.left-cont{
+	color:rgba(72,70,69,1);
+	margin-bottom: 2rem;
+}
+.left-contact {
+    margin-top: 44px;
+}
+
+.left-contact2 {
+   margin-top: 10px;
+}
+
+
+.form-contat{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1116,8 +1160,55 @@ img .bouton-ninja{
 /* PAGE 404 - NOT FOUND */
 
 
+.corps-page-404 {
+	display: block;
+	background-image: url(/img/fond-404.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: auto;
+	z-index:1;
+	padding: 0;
+}
+
+<<<<<<< HEAD
+/* SUCCESS-STORY */
+=======
+.error-code-404 {
+	color: #fff;
+	font-family:"corbel";
+	position: relative;
+	font-size: 3rem;
+	margin-top: 10rem;
+	transform: translateY(-50%);
+}
+
+.ninja-404 {
+	display: block;
+	position: relative;
+	z-index:2;
+	width: 100%;
+	text-align: center;
+	margin-top:2rem;
+}
+>>>>>>> 6c75416f992dd05054561b0872ec284dc71ed3f0
 
 
+.gris-success {
+	background : #ededed ;
+	border-style : none ;
+	margin: 0 !important ;
+    padding: 15px;
+	height : 20em;
+	box-shadow: 0px 4px 12px -1px rgba(0, 0, 0, 0.3) inset;
+}
+
+
+.titresuccess {
+	font-size : 1.2em ;
+	margin-top : 1.1em ;
+	text-align : center ;
+	letter-spacing : 0.2em ;
+}
 
 
 /* FOOTER */
