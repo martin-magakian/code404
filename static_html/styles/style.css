@@ -90,6 +90,16 @@ h3 {
 	transform: translateY(-50%);
 }
 
+.baseline-about {
+	font-family:"corbel";
+	position: relative;
+	font-size: 3rem;
+	color: #fff;
+	margin-top: 45vh;
+	transform: translateY(-50%);
+}
+
+
 ul>li>a {
 	color: #fff;
 	font-size: 1.2rem;
@@ -615,7 +625,10 @@ a.bg3:hover{
 	width:30px;
 }
 */
+.shadow{
+	width: 20rem;
 
+}
 
 /* page contact*/
 
@@ -744,7 +757,14 @@ a:hover {
 
 .haut{
 	padding-top: 1.25rem;
-	
+
+}
+.container-about {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;	
 }
 .bas{
 	padding-top: 0.65rem;
@@ -811,6 +831,11 @@ a:hover {
 
 }
 
+.barre{
+	height: 8px;
+	width: 50%;
+	background: white;
+}
 
 .bg3{
 	background-image: url('/img/bg3.svg');
@@ -1326,10 +1351,8 @@ background-position: center;
 }
 
 .bgscolarite {
-   
-    height: auto;
-    padding-bottom: 4em;
-   
+    height: 51rem;
+    padding-bottom: 0em;
 }
 
 }
@@ -1337,10 +1360,17 @@ background-position: center;
 @media screen and (max-width:1582px) {
 
 .bg3{
-	margin-top: -42.5em;
+	margin-top: 0em;
+}
+
+.bgscolarite {
+    height: 43rem;
+    padding-bottom: 0em;
 }
 
 }
+
+
 
 @media screen and (max-width:1480px) {
 
@@ -1401,9 +1431,15 @@ background-position: center;
 	}
 
 	.bg3{
-	margin-top: -42.5em;
-}
+	margin-top: 0em;
+	}
 	
+.bgscolarite {
+    height: 45rem;
+    padding-bottom: 0em;
+	}
+
+
 }
 @media screen and (max-width:1411px){
 
@@ -1413,10 +1449,48 @@ background-position: center;
 }
 
 .bg3 {
-    margin-top: -43.5em;
+    margin-top: 0em;
 }
 
+
+
 }
+
+@media screen and (max-width:1350px){
+	.background-header {
+	    height: 48em;
+	}
+}
+@media screen and (max-width:1330px){
+
+.bgscolarite {
+    height: 41rem;
+    padding-bottom: 0em;
+	}
+
+
+}
+
+@media screen and (max-width:1300px){
+	.background-header {
+	    height: 47em;
+	}
+}
+
+@media screen and (max-width:1280px){
+
+.scolarite {
+  
+    margin-top: 23vh;
+}
+	.background-header {
+	    height: 45em;
+	}
+
+
+}
+
+
 
 @media screen and (max-width:1255px) {
 
@@ -1444,21 +1518,44 @@ background-position: center;
 		margin-top:1.6rem;
 	}
 	
+.bgscolarite {
+    height: 37rem;
+    padding-bottom: 0em;
+}
 
 
-
+.scolarite {
+  
+    margin-top: 19vh;
+}
 /* HEADER AURELIE*/
 
 .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 0rem; 
     padding-left: 0rem; 
+	}
 }
-
 /*FIN DU HEADER */
 
+@media screen and (max-width:1230px) {
 
+.background-header {
+	    height: 39em;
+	}
 
 }
+
+
+
+@media screen and (max-width:1168px) {
+
+.background-header {
+	    height: 39em;
+	}
+
+}
+
+
 
 @media screen and (max-width:1080px) {
 
@@ -1540,7 +1637,29 @@ background-position: center;
 		background: url("/img/img6-actu.jpg");
 		background-position: center;
 }
+
+.scolarite {
+  
+    margin-top: 12vh;
+}
+
+.bgscolarite {
+    height: 33rem;
+    padding-bottom: 0em;
+}
+
+.background-header {
+	    height: 36em;
+	}
 	
+.baseline-about {
+    font-family: "corbel";
+    position: relative;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-top: 28vh;
+    transform: translateY(-50%);
+	}
 }
 
 
@@ -1687,7 +1806,7 @@ background-position: center;
 		background-position: center;
 }
 	
-}
+
 
 
 /*header aurelie*/
@@ -1696,8 +1815,63 @@ background-position: center;
     margin-right: 0rem;
 }
 
+.bgscolarite {
+	background-image: none;
+	background-color: #e62530;
+    height: 29rem;
+    padding-bottom: 0em;
+}
+.scolarite {
+    margin-top: 10vh;
+}
+
+.background-header {
+	    height: 33em;
+	}
+
+}
 
 /*fin du header*/
+
+
+@media screen and (max-width:952px) {
+
+
+.scolarite {
+    margin-top: 10vh;
+}
+
+.background-header {
+	    height: 30em;
+	}
+
+}
+
+@media screen and (max-width:887px) {
+
+.background-header {
+	    height: 30em;
+	}
+
+}
+
+@media screen and (max-width:880px) {
+
+.grey {
+    
+    padding: 3em;
+	}
+
+}
+
+@media screen and (max-width:820px) {
+
+.background-header {
+	    height: 28em;
+	}
+
+}
+
 
 @media screen and (max-width:767px) {
 	
@@ -1799,9 +1973,35 @@ background-position: center;
 	margin-left: 33px;
 }
 
+.baseline-about {
+
+    font-size: 2rem;
+    margin-top: 23vh;
+}
+.background-header {
+    height: 27em;
+}
 
 }
-/*fin header*/
+
+@media screen and (max-width:764px) {
+
+.btn-block {
+    
+    width: 79%;
+}
+	}
+
+@media screen and (max-width:730px) {
+
+.background-header {
+    height: 25em;
+}
+
+}
+
+
+
 @media screen and (max-width:680px) {
 	
 	.partie1 {
@@ -1887,7 +2087,28 @@ background-position: center;
 	     padding: 0.2rem; 
 	}
 
-	
+.background-header {
+    height: 23em;
+}
+
+.baseline-about {
+    font-size: 1.85rem;
+    margin-top: 21vh;
+}
+
+}
+
+
+@media screen and (max-width:617px) {
+
+.background-header {
+    height: 20em;
+	}
+.baseline-about {
+    font-size: 1.85rem;
+    margin-top: 19vh;
+}
+
 }
 
 @media screen and (max-width:560px) {
@@ -1913,6 +2134,69 @@ background-position: center;
 
 }
 
+@media screen and (max-width:554px) {
+
+
+.GTitre {
+    font-size: 1.8em;
+    margin-bottom: 1.5em;
+	}
+
+.text-center-apropos {
+ 
+    font-size: 1.2em;
+
+}
+
+}
+
+@media screen and (max-width:540px) {
+
+.background-header {
+    height: auto;
+}
+
+.baseline-about {
+    font-size: 1.56rem;
+    margin-top: 16vh;
+
+}
+
+}
+
+@media screen and (max-width:438px) {
+
+
+/*.blocwhite {
+    background-color: white;
+    display: block;
+    height: auto;
+    padding: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom: 2rem;
+}*/
+
+.bg3 {
+    margin-top: 0em;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.blocwhite {
+    background-color: white;
+    display: block;
+    height: auto;
+    padding: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom: 2rem;
+	}
+}
 
 @media screen and (max-width:380px) {
 	
@@ -1999,6 +2283,21 @@ background-position: center;
 .navbar {
     
      padding: 0rem; 
+}
+
+.blocwhite {
+    background-color: white;
+    display: block;
+    height: auto;
+    padding: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom: 2rem;
+	}
+
+.container-about{
+	padding-right: 0px;
+    padding-left: 0px;
 }
 
 }

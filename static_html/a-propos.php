@@ -8,8 +8,8 @@
 
 						
 					   <div class="row justify-content-center align-items-center">
-							<div class="col-10 " style="text-align: center">
-								<h1 class="baseline">  &#60h1&#62 l'école qui sort des codes &#60/h1&#62 </h1>
+							<div class="col-12 " style="text-align: center">
+								<h1 class="baseline-about">  &#60h1&#62 l'école qui sort des codes &#60/h1&#62 </h1>
 							</div>
 						</div>
 					
@@ -37,7 +37,7 @@
 </div>
 
 <div class="container-fluid blocwhite">
-	<div class="container ">
+	<div class="container container-about ">
 		<div class="row">
 			<!-- php array = tableau dedans 6 tableau car 6 éléments , on ajoute des mots clefs (img nom..) ce sont des élément qui changeront dans le html-->
 
@@ -79,7 +79,7 @@
 			foreach($cardsabout as $cardabout){ ?>
 
 				<div class="col margeabout" >
-			<div class="card shadow" style="width: 20rem;">
+			<div class="card shadow">
 				  <img class="card-img-top" src="<?php echo $cardabout['img'] ?>" alt="professeur institut de devellopement code 404">
 				  <div class="card-body card-body-about">
 					<h4 class="card-title space haut les-profs name"><?php echo $cardabout['nom'] ?></h4>
@@ -174,7 +174,7 @@
 		<div class="col-10 " style="text-align: center">
 			<h2 class="scolarite bas">  Frais de scolarité </h2>
 		</div>
-		<img src="img/barre.svg" alt="" class="center">
+		<div class="barre center"></div><!-- <img src="img/barre.svg" alt="" class="center"> -->
 	</div>
 	<div class="container haut white">
 		<div class="row haut">
@@ -191,7 +191,7 @@
 		</div>
 	</div>
 	<div class="row justify-content-center align-items-center">
-	<img src="img/barre.svg" alt="" class="center hauteur">
+	<div class="barre center hauteur"></div>
 	</div>
 </div>
 <div class="container-fluid bg3">
