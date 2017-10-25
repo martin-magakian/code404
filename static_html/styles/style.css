@@ -710,7 +710,7 @@ margin: 20px 0 20px;
 	background-color:white;
 	display: block;
     height: auto;
-	padding:7em;
+	    padding: 4em;
 }
 
 a:hover {
@@ -855,7 +855,9 @@ a.bg3:hover{
  color: white;
 }
 
-
+.margeabout{
+	margin-top: 2rem;
+}
 
 
 /* page contact*/
