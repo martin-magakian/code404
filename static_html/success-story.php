@@ -58,4 +58,71 @@
     </div>
 </div>
 
+<img class="diago-grise" src="img/img-diagonale-gris.svg">
+
+<div class="blocrouge-success">
+	<h3 class="titre-bloc-rouge"> LE TRAVAIL DE NOS SUPER NINJAS </h3>
+</div>
+
+
+	<div class="row actus marge-actu">
+		<div class="col-lg-4 col-sm-12">
+			<div class="encart-1 encart-actu-1">
+			  <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+			  <div class="encart-block1">
+				<p class="card-text texte-actu content-align-bottom">Laura Guillard</p>
+			  </div>
+			</div>
+		</div>	
+		<div class="col-lg-8 col-sm-12">
+			<div class="encart-2 encart-actu-2">
+			  <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+			  <div class="encart-block2">
+				<p class="card-text texte-actu content-align-bottom">Antoine Davy</p>
+			  </div>
+			</div>
+		</div>	
+	</div>
 	
+	<div class="dernierepartie">
+		<div class="row actus">
+			<div class="col-lg-6 col-sm-12">
+				<div class="row">
+					<div class="col-12">
+						<div class="encart-3 encart-actu-3">
+						  <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+						  <div class="encart-block3">
+							<p class="card-text texte-actu content-align-bottom">Olivier Gourdon</p>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-sm-12">
+						<div class="encart-4 encart-actu-4">
+						  <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+						  <div class="encart-block4">
+								<p class="card-text texte-actu content-align-bottom">Laurène Roméo</p>
+						  </div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-sm-12">
+						<div class="encart-5 encart-actu-5">
+						  <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+						  <div class="encart-block5">
+								<p class="card-text texte-actu content-align-bottom">Frédéric Trubelle</p>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-sm-12">
+				<div class="encart-6 encart-actu-6">
+				  <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+				  <div class="encart-block6">
+					<p class="card-text texte-actu content-align-bottom">Mélie Gauthier</p>
+				  </div>
+				</div>
+			</div>	
+		</div>
+	</div>
