@@ -1210,13 +1210,7 @@ a:visited{
 	margin-top:2rem;
 }
 
-<<<<<<< HEAD
 
-
-=======
-
-
->>>>>>> 8cf0432d4677214605f53c1b169164ec8081e66a
 .ninja-404 {
     display: block;
     position: relative;
@@ -1227,10 +1221,7 @@ a:visited{
     margin-top: 2rem;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 8cf0432d4677214605f53c1b169164ec8081e66a
 /* SUCCESS-STORY */
 
 .gris-success {
@@ -1782,7 +1773,6 @@ background-position: center;
 	    margin-bottom: 0px;
 	}
 
-=======
 }
 
 @media screen and (max-width:1230px) {
@@ -2297,10 +2287,13 @@ background-position: center;
 	}
 
 	.logo-header img{
+	   	font-size: 2rem;
+   		 margin-top: 23vh;
+}
 
-<<<<<<< HEAD
-.baseline-about {
-=======
+
+	.baseline-about {
+
 		width:50%;
 		margin-left: 33px;
 	}
@@ -2310,15 +2303,12 @@ background-position: center;
 	}
 
 	/* fin header */
->>>>>>> 89b0c6dfdae7a09a8ff60ef975637ea2ec48b903
 
-    font-size: 2rem;
-    margin-top: 23vh;
-}
-.background-header {
+
+ 
+	.background-header {
     height: 27em;
-}
-<<<<<<< HEAD
+	}
 
 }
 
@@ -2473,7 +2463,6 @@ background-position: center;
     	column-count : 1 ;
 	}
 
-<<<<<<< HEAD
 	.corps-page-404 {
 	    display: block;
 	    background-image: url(/img/fond-404.jpg);
