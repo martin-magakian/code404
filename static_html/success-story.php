@@ -1,5 +1,5 @@
 <!-- debut page success-story -->
-<div data-type="vimeo" data-video-id="32383563"></div>
+<div class="vidéo" data-type="vimeo" data-video-id="32383563"></div>
 
 
 
