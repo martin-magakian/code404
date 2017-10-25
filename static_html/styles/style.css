@@ -1156,18 +1156,7 @@ a:visited{
 }
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> 8a33a691a69e4b6429397caf510f9f3eb9a07c0a
-=======
->>>>>>> f563363b222d93457f1ba0acef628112d930ef65
-/* SUCCESS-STORY */
-
-=======
->>>>>>> 7582863efd30ee0eca6521ad5ab8236f58423ea6
 .error-code-404 {
 	color: #fff;
 	font-family:"corbel";
@@ -1185,18 +1174,9 @@ a:visited{
 	text-align: center;
 	margin-top:2rem;
 }
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> fec0f1b54f215683645982a476aafd19ce6ec28b
->>>>>>> 8a33a691a69e4b6429397caf510f9f3eb9a07c0a
-=======
->>>>>>> fec0f1b54f215683645982a476aafd19ce6ec28b
->>>>>>> f563363b222d93457f1ba0acef628112d930ef65
+
 
 .ninja-404 {
 	display: block;
@@ -1206,19 +1186,6 @@ a:visited{
 	text-align: center;
 	margin-top:2rem;
 }
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> fec0f1b54f215683645982a476aafd19ce6ec28b
->>>>>>> 8a33a691a69e4b6429397caf510f9f3eb9a07c0a
-=======
->>>>>>> fec0f1b54f215683645982a476aafd19ce6ec28b
->>>>>>> f563363b222d93457f1ba0acef628112d930ef65
-
 
 /* SUCCESS-STORY */
 
@@ -1237,7 +1204,7 @@ a:visited{
 	margin-top : 7em ;
 	text-align : center ;
 	letter-spacing : 0.2em ;
-	margin-bottom: 3em;
+	margin-bottom: 5em;
 }
 
 .tiretrouge {
@@ -1281,7 +1248,7 @@ a:visited{
 }
 
 
-.card-img1, .card-img2 {
+.card-img1, .card-img2, .card-img3, .card-img4, .card-img5, .card-img6 {
 	height: 20rem;
 	}
 
@@ -1296,8 +1263,25 @@ background: url("/img/image02.jpg");
 background-position: center;
 	}
 
+.card-img3 {
+background: url("/img/image03.jpg");
+background-position: center;
+	}
 
+.card-img4 {
+background: url("/img/image04.jpg");
+background-position: center;
+	}
 
+.card-img5 {
+background: url("/img/image05.jpg");
+background-position: center;
+	}
+
+.card-img6 {
+background: url("/img/image06.jpg");
+background-position: center;
+	}
 
 
 /* MEDIA QUERIES RESPONSIVE */
