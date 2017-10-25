@@ -2286,11 +2286,6 @@ background-position: center;
 	    border-radius: .25rem;
 	}
 
-	.logo-header img{
-	   	font-size: 2rem;
-   		 margin-top: 23vh;
-}
-
 
 	.baseline-about {
 
@@ -2317,6 +2312,11 @@ background-position: center;
 .btn-block {
     
     width: 79%;
+}
+
+	.logo-header img{
+	   	width: : 50%;
+   		 
 }
 	}
 
@@ -2825,11 +2825,11 @@ background-position: center;
 
 
 
-.logo-header img{
+	.logo-header img{
 
-	width:87%;
-	margin-left: 33px;
-}
+		width:87%;
+		margin-left: 33px;
+	}
 
 .mb-0 {
     letter-spacing: 0.2em;
