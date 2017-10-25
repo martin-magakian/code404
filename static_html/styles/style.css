@@ -2034,7 +2034,7 @@ background-position: center;
 
 .logo-header img{
 
-	width:50%;
+	width:87%;
 	margin-left: 33px;
 }
 
@@ -2093,48 +2093,54 @@ background-position: center;
 	height:400px;
 	}
 	
-		.partie4 {
+.partie4 {
 	background: #fff;
 	height: auto;
 	padding: 1rem;
 	padding-top: 5rem;
 	padding-bottom: 2rem;
 	text-align:center;
-	}
+}
 	
 
-	.champ-txt-mail-home {
+.champ-txt-mail-home {
 		width:10rem;
 
-	}
+}
 
-	.actus {
+.actus {
 	padding-left: 0;
 	padding-right: 0;
-	}
+}
 
-	.card-block1, .card-block2, .card-block6 {
+.card-block1, .card-block2, .card-block6 {
 		height: 15rem;
 		margin-top:2rem;
-	}
+}
 
-	.card-block3 {
+.card-block3 {
 		height: 15rem;
 		margin-top:2rem;
-	}
+}
 
-	.card-block4, .card-block5 {
+.card-block4, .card-block5 {
 		height: 15rem;
 		margin-top:1.6rem;
-	}
+}
 	
 .navbar {
     
      padding: 0rem; 
 }
 
-}
 
+
+.logo-header img{
+
+	width:87%;
+	margin-left: 33px;
+}
+}
 
 
 
