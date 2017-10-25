@@ -11,6 +11,6 @@
 		</div>
 	</div>
 	<div class="ninja-404">
-		<img src="img/ninja-404.png">
+		<img src="img/ninja-404.svg">
 	</div>
 </div>
