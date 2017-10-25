@@ -25,7 +25,8 @@
 
 
 			    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-			        <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+			        <div class="card-img3">
+			    	</div>
 			        <h3 class="h3success"> Thibault Brunelt <span class="tiretrouge">_</span> </h3> 
 			        </br> <h3 class="h3rouge"> Programmateur </h3>
 			    </div>
@@ -33,19 +34,22 @@
 
 			<div class="row">
 			    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-			        <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+			        <div class="card-img4">
+			    	</div>
 			        <h3 class="h3success"> Etienne Da Silva <span class="tiretrouge">_</span> </h3> 
 			        </br> <h3 class="h3rouge"> Auto-entrepreneur </h3>
 			    </div>
 
 			    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-			        <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+			        <div class="card-img5">
+			    	</div>
 			        <h3 class="h3success"> Rémi Miller <span class="tiretrouge">_</span> </h3> 
 			        </br> <h3 class="h3rouge"> Programmateur </h3>
 			    </div>
 
 			    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-			        <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+			        <div class="card-img6">
+			    	</div>
 			        <h3 class="h3success"> Jasmine Liu <span class="tiretrouge">_</span> </h3> 
 			        </br> <h3 class="h3rouge"> Co-directrice </h3>
 			    </div>
