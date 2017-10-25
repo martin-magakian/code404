@@ -1210,13 +1210,7 @@ a:visited{
 	margin-top:2rem;
 }
 
-<<<<<<< HEAD
 
-
-=======
-
-
->>>>>>> 8cf0432d4677214605f53c1b169164ec8081e66a
 .ninja-404 {
     display: block;
     position: relative;
@@ -1227,10 +1221,7 @@ a:visited{
     margin-top: 2rem;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 8cf0432d4677214605f53c1b169164ec8081e66a
 /* SUCCESS-STORY */
 
 .gris-success {
@@ -1499,7 +1490,7 @@ background-position: center;
 		margin-top: 0em;
 	}
 
-<<<<<<< HEAD
+
 	.corps-page-404 {
     display: block;
     background-image: url(/img/fond-404.jpg);
@@ -1511,8 +1502,6 @@ background-position: center;
     overflow: hidden;
     height: 850px;
 	}
-=======
->>>>>>> 05a13224949b6dbe0062173754ab08b0af7a3b8e
 
 }
 
@@ -1764,7 +1753,6 @@ background-position: center;
 	}
 
 
-<<<<<<< HEAD
 	.corps-page-404 {
 	    display: block;
 	    background-image: url(/img/fond-404.jpg);
@@ -1787,11 +1775,10 @@ background-position: center;
 	    margin-bottom: 0px;
 	}
 
-=======
+
 }
 
 @media screen and (max-width:1230px) {
->>>>>>> 05a13224949b6dbe0062173754ab08b0af7a3b8e
 
 .background-header {
 	    height: 39em;
@@ -1937,7 +1924,7 @@ background-position: center;
 		column-gap : 2rem ;
 	}
 
-<<<<<<< HEAD
+
 	.corps-page-404 {
 	    display: block;
 	    background-image: url(/img/fond-404.jpg);
@@ -1955,11 +1942,9 @@ background-position: center;
 
 
 
-=======
 .finabout {
     padding-top: 1rem;
 }
->>>>>>> 05a13224949b6dbe0062173754ab08b0af7a3b8e
 
 }
 
@@ -2135,8 +2120,6 @@ background-position: center;
 		font-size: 2rem;
 	}
 }
-=======
->>>>>>> 05a13224949b6dbe0062173754ab08b0af7a3b8e
 
 
 
@@ -2308,10 +2291,6 @@ background-position: center;
 	}
 
 	.logo-header img{
-
-<<<<<<< HEAD
-.baseline-about {
-=======
 		width:50%;
 		margin-left: 33px;
 	}
@@ -2321,7 +2300,6 @@ background-position: center;
 	}
 
 	/* fin header */
->>>>>>> 89b0c6dfdae7a09a8ff60ef975637ea2ec48b903
 
     font-size: 2rem;
     margin-top: 23vh;
@@ -2329,7 +2307,7 @@ background-position: center;
 .background-header {
     height: 27em;
 }
-<<<<<<< HEAD
+
 
 }
 
@@ -2349,10 +2327,7 @@ background-position: center;
 
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 05a13224949b6dbe0062173754ab08b0af7a3b8e
 @media screen and (max-width:680px) {
 	
 	.partie1 {
@@ -2488,7 +2463,7 @@ background-position: center;
     	column-count : 1 ;
 	}
 
-<<<<<<< HEAD
+
 	.corps-page-404 {
 	    display: block;
 	    background-image: url(/img/fond-404.jpg);
@@ -2528,10 +2503,7 @@ background-position: center;
 		font-size: 1.5rem;
 	}
 	
-=======
 
->>>>>>> 05a13224949b6dbe0062173754ab08b0af7a3b8e
-}
 
 @media screen and (max-width:560px) {
 
@@ -2911,6 +2883,7 @@ color:rgba(255,255,255,1);
 font-size:16px; 
 color:rgba(230,28,49,1);
 }
+
 .footer-bs .footer-brand, .footer-bs .footer-txt, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
 .footer-bs .footer-txt, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
 .footer-bs .footer-brand h2 { margin:0px 0px 10px; }
