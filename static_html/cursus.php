@@ -7,7 +7,7 @@
 				
 				<div class="row justify-content-center align-items-center">
 					<div class="col-12 " style="text-align: center">
-						<h1 class="baseline"> &#60h1&#62 deviens développeur en 3 ans &#60/h1&#62 </h1>
+						<h1 class="baseline baseline-cursus"> &#60h1&#62 deviens développeur en 3 ans &#60/h1&#62 </h1>
 					</div>
 				</div>
 			
@@ -31,8 +31,20 @@
 		<div class="parent">
 			<div class="rouge-cursus">
 				<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-					<div class="card-body">
-						<p class="txt-cursus"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </p>
+					<div class=" container card-body">
+						<div class="row">
+								<div class="col-lg-4 col-sm-12">
+									<p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, 
+									</p>
+								</div>
+								<div class="col-lg-4 col-sm-12">
+									<p>non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore </p>
+								</div>
+								<div class="col-lg-4 col-sm-12"> 
+									<p> wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -51,8 +63,20 @@
 		<div class="parent">
 			<div class="rouge-cursus">
 				<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
-					<div class="card-body">
-						<p class="txt-cursus"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </p>
+					<div class=" container card-body">
+						<div class="row">
+								<div class="col-lg-4 col-sm-12">
+									<p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, 
+									</p>
+								</div>
+								<div class="col-lg-4 col-sm-12">
+									<p>non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore </p>
+								</div>
+								<div class="col-lg-4 col-sm-12"> 
+									<p> wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -71,8 +95,20 @@
 		<div class="parent">
 			<div class="rouge-cursus">
 				<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
-					<div class="card-body">
-						<p class="txt-cursus"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </p>
+					<div class=" container card-body">
+						<div class="row">
+								<div class="col-lg-4 col-sm-12">
+									<p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, 
+									</p>
+								</div>
+								<div class="col-lg-4 col-sm-12">
+									<p>non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore </p>
+								</div>
+								<div class="col-lg-4 col-sm-12"> 
+									<p> wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -91,7 +127,7 @@
 	</h2>
 	<form name="form4" action="" class="champ-doc text-center ">
 		<input type="texte" name="mail" class="mailcursus">
-		<input type="button" name="bouton" value="Valider" class="validercursus" onclick="ValiderMail(this.form)">
+		<!--<input type="button" name="bouton" value="Valider" class="bouton-cursus" onclick="ValiderMail(this.form)">-->
 	</form>
 	<div class="bouton-cursus">
 		<button type="button" class="btn btn-secondary docucursus" class="text-center " >Recevoir la documentation</button>
