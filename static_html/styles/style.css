@@ -1590,6 +1590,11 @@ a:visited{
     height: 850px;
 	}
 
+	.scolarite {
+		margin-top: 13rem;
+	}
+
+
 }
 
 
@@ -1722,6 +1727,10 @@ a:visited{
 		font-size: 2rem;
 	}
 
+	.scolarite {
+		margin-top: 10rem;
+	}
+
 }
 
 @media screen and (max-width:1350px){
@@ -1850,6 +1859,10 @@ a:visited{
 	    margin-bottom: 0px;
 	}
 
+	.scolarite {
+		margin-top: 14vh;
+	}
+
 }
 
 @media screen and (max-width:1230px) {
@@ -1867,6 +1880,11 @@ a:visited{
 	.background-header {
 	    height: 39em;
 	}
+
+	.scolarite {
+		margin-top: 5rem;
+	}
+
 
 }
 
@@ -2012,6 +2030,11 @@ a:visited{
 	.finabout {
 	    padding-top: 1rem;
 	}
+
+	.scolarite {
+		margin-top: 5rem;
+	}
+
 
 }
 
