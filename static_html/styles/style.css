@@ -1436,6 +1436,13 @@ background-position: center;
 
 }
 
+@media screen and (max-width:1445px){
+.bgscolarite {
+    height: 45rem;
+    padding-bottom: 0em;
+}
+}
+
 @media screen and (max-width:1411px){
 
 	.background-header {
