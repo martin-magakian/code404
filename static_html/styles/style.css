@@ -1390,7 +1390,6 @@ background-position: center;
 		margin-top: 0em;
 	}
 
-<<<<<<< HEAD
 	.corps-page-404 {
     display: block;
     background-image: url(/img/fond-404.jpg);
@@ -1402,8 +1401,6 @@ background-position: center;
     overflow: hidden;
     height: 850px;
 	}
-=======
->>>>>>> 05a13224949b6dbe0062173754ab08b0af7a3b8e
 
 }
 
@@ -1654,8 +1651,6 @@ background-position: center;
 	    padding-left: 0rem; 
 	}
 
-
-<<<<<<< HEAD
 	.corps-page-404 {
 	    display: block;
 	    background-image: url(/img/fond-404.jpg);
@@ -1682,7 +1677,7 @@ background-position: center;
 }
 
 @media screen and (max-width:1230px) {
->>>>>>> 05a13224949b6dbe0062173754ab08b0af7a3b8e
+
 
 .background-header {
 	    height: 39em;
@@ -1828,7 +1823,7 @@ background-position: center;
 		column-gap : 2rem ;
 	}
 
-<<<<<<< HEAD
+
 	.corps-page-404 {
 	    display: block;
 	    background-image: url(/img/fond-404.jpg);
@@ -1846,11 +1841,10 @@ background-position: center;
 
 
 
-=======
+
 .finabout {
     padding-top: 1rem;
 }
->>>>>>> 05a13224949b6dbe0062173754ab08b0af7a3b8e
 
 }
 
@@ -2016,7 +2010,7 @@ background-position: center;
     text-align: left;
     margin-left: 2rem;
 	}
-<<<<<<< HEAD
+
 
 	.coordonnées-contact {
 		margin-bottom: 4rem;
@@ -2025,11 +2019,6 @@ background-position: center;
 	.titre-contact {
 		font-size: 2rem;
 	}
-}
-=======
->>>>>>> 05a13224949b6dbe0062173754ab08b0af7a3b8e
-
-
 
 .nav-link {
     margin-left: 2rem;
@@ -2050,9 +2039,9 @@ background-position: center;
 	    height: 33em;
 	}
 
-.bg3 {
-    margin-top: 2em;
-}
+	.bg3 {
+	    margin-top: 2em;
+	}
 
 }
 
@@ -2240,10 +2229,6 @@ background-position: center;
 
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 05a13224949b6dbe0062173754ab08b0af7a3b8e
 @media screen and (max-width:680px) {
 	
 	.partie1 {
@@ -2419,9 +2404,6 @@ background-position: center;
 		font-size: 1.5rem;
 	}
 	
-=======
-
->>>>>>> 05a13224949b6dbe0062173754ab08b0af7a3b8e
 }
 
 @media screen and (max-width:560px) {
