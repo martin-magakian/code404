@@ -708,7 +708,7 @@ margin: 20px 0 20px;
 	background-color:white;
 	display: block;
     height: auto;
-	padding:7em;
+	    padding: 4em;
 }
 
 a:hover {
@@ -854,7 +854,9 @@ a.bg3:hover{
  color: white;
 }
 
-
+.margeabout{
+	margin-top: 2rem;
+}
 
 
 /* page contact*/
@@ -1152,6 +1154,10 @@ a:visited{
 }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 55f8fd9e6d7cf76fd02298de84843daccdceb2f5
 .error-code-404 {
 	color: #fff;
 	font-family:"corbel";
@@ -1170,6 +1176,11 @@ a:visited{
 	margin-top:2rem;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 55f8fd9e6d7cf76fd02298de84843daccdceb2f5
 
 .ninja-404 {
 	display: block;
@@ -1179,8 +1190,11 @@ a:visited{
 	text-align: center;
 	margin-top:2rem;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 55f8fd9e6d7cf76fd02298de84843daccdceb2f5
 
 /* SUCCESS-STORY */
 
@@ -1199,7 +1213,7 @@ a:visited{
 	margin-top : 7em ;
 	text-align : center ;
 	letter-spacing : 0.2em ;
-	margin-bottom: 3em;
+	margin-bottom: 5em;
 }
 
 .tiretrouge {
@@ -1243,7 +1257,7 @@ a:visited{
 }
 
 
-.card-img1, .card-img2 {
+.card-img1, .card-img2, .card-img3, .card-img4, .card-img5, .card-img6 {
 	height: 20rem;
 	}
 
@@ -1258,8 +1272,25 @@ background: url("/img/image02.jpg");
 background-position: center;
 	}
 
+.card-img3 {
+background: url("/img/image03.jpg");
+background-position: center;
+	}
 
+.card-img4 {
+background: url("/img/image04.jpg");
+background-position: center;
+	}
 
+.card-img5 {
+background: url("/img/image05.jpg");
+background-position: center;
+	}
+
+.card-img6 {
+background: url("/img/image06.jpg");
+background-position: center;
+	}
 
 
 /* MEDIA QUERIES RESPONSIVE */
