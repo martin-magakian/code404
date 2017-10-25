@@ -1430,9 +1430,9 @@ a:visited{
 	color : white ;
 }
 
-.dernierepartie {
-	height : 45em ;
-}
+	.dernierepartie { 
+		padding-bottom: 7rem;
+	}
 
 .encart-block1, .encart-block2, .encart-block6 {
 	height: 30rem;
@@ -1673,6 +1673,10 @@ a:visited{
 	    padding-bottom: 0em;
 	}
 
+	.dernierepartie { 
+		padding-bottom: 7rem;
+	}
+
 
 }
 
@@ -1729,6 +1733,10 @@ a:visited{
 
 	.scolarite {
 		margin-top: 10rem;
+	}
+
+	.dernierepartie { 
+		padding-bottom: 7rem;
 	}
 
 }
@@ -1861,6 +1869,10 @@ a:visited{
 
 	.scolarite {
 		margin-top: 14vh;
+	}
+
+		.dernierepartie { 
+		padding-bottom: 7rem;
 	}
 
 }
@@ -2035,6 +2047,10 @@ a:visited{
 		margin-top: 5rem;
 	}
 
+	.dernierepartie { 
+		padding-bottom: 7rem;
+	}
+	
 
 }
 
@@ -2231,6 +2247,11 @@ a:visited{
 
 	.bg3 {
 	    margin-top: 2em;
+	}
+
+	.dernierepartie {
+		height : auto ;
+		padding-bottom: 5rem;
 	}
 
 }

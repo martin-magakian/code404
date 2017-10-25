@@ -65,27 +65,30 @@
 </div>
 
 
-	<div class="row actus marge-actu">
-		<div class="col-lg-4 col-sm-12">
-			<div class="encart-1 encart-actu-1">
-			  <!--<img class="card-img-top" src="..." alt="Card image cap">-->
-			  <div class="encart-block1">
-				<p class="card-text texte-actu content-align-bottom">Laura Guillard</p>
-			  </div>
-			</div>
-		</div>	
-		<div class="col-lg-8 col-sm-12">
-			<div class="encart-2 encart-actu-2">
-			  <!--<img class="card-img-top" src="..." alt="Card image cap">-->
-			  <div class="encart-block2">
-				<p class="card-text texte-actu content-align-bottom">Antoine Davy</p>
-			  </div>
-			</div>
-		</div>	
+	<div class="container portfoliop1">
+		<div class="row portfolio marge-actu">
+			<div class="col-lg-4 col-sm-12">
+				<div class="encart-1 encart-actu-1">
+				  <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+				  <div class="encart-block1">
+					<p class="card-text texte-actu content-align-bottom">Laura Guillard</p>
+				  </div>
+				</div>
+			</div>	
+			<div class="col-lg-8 col-sm-12">
+				<div class="encart-2 encart-actu-2">
+				  <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+				  <div class="encart-block2">
+					<p class="card-text texte-actu content-align-bottom">Antoine Davy</p>
+				  </div>
+				</div>
+			</div>	
+		</div>
 	</div>
 	
-	<div class="dernierepartie">
-		<div class="row actus">
+	<div class="container dernierepartie">
+
+		<div class="row portfolio">
 			<div class="col-lg-6 col-sm-12">
 				<div class="row">
 					<div class="col-12">
