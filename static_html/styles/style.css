@@ -1490,6 +1490,10 @@ background-position: center;
 		margin-top: 0em;
 	}
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 66da1d54a923c3dfb1a9b3c04fb34c3cd90cbf06
 	.corps-page-404 {
     display: block;
     background-image: url(/img/fond-404.jpg);
@@ -1751,6 +1755,10 @@ background-position: center;
 	    padding-left: 0rem; 
 	}
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 66da1d54a923c3dfb1a9b3c04fb34c3cd90cbf06
 	.corps-page-404 {
 	    display: block;
 	    background-image: url(/img/fond-404.jpg);
@@ -1773,10 +1781,17 @@ background-position: center;
 	    margin-bottom: 0px;
 	}
 
+<<<<<<< HEAD
+
+}
+
+@media screen and (max-width:1230px) {
+=======
 }
 
 @media screen and (max-width:1230px) {
 
+>>>>>>> 66da1d54a923c3dfb1a9b3c04fb34c3cd90cbf06
 
 .background-header {
 	    height: 39em;
@@ -1940,7 +1955,10 @@ background-position: center;
 
 
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 66da1d54a923c3dfb1a9b3c04fb34c3cd90cbf06
 .finabout {
     padding-top: 1rem;
 }
@@ -2118,6 +2136,12 @@ background-position: center;
 	.titre-contact {
 		font-size: 2rem;
 	}
+<<<<<<< HEAD
+}
+
+
+=======
+>>>>>>> 66da1d54a923c3dfb1a9b3c04fb34c3cd90cbf06
 
 .nav-link {
     margin-left: 2rem;
@@ -2286,9 +2310,20 @@ background-position: center;
 	    border-radius: .25rem;
 	}
 
+<<<<<<< HEAD
+=======
+	.logo-header img{
+<<<<<<< HEAD
+=======
+	   	font-size: 2rem;
+   		 margin-top: 23vh;
+}
+
+>>>>>>> 1c848a12e0f9d02444d8848ca2a5292d20743557
 
 	.baseline-about {
 
+>>>>>>> 66da1d54a923c3dfb1a9b3c04fb34c3cd90cbf06
 		width:50%;
 		margin-left: 33px;
 	}
@@ -2303,7 +2338,12 @@ background-position: center;
  
 	.background-header {
     height: 27em;
+<<<<<<< HEAD
+}
+
+=======
 	}
+>>>>>>> 66da1d54a923c3dfb1a9b3c04fb34c3cd90cbf06
 
 }
 
@@ -2328,6 +2368,10 @@ background-position: center;
 
 }
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 66da1d54a923c3dfb1a9b3c04fb34c3cd90cbf06
 @media screen and (max-width:680px) {
 	
 	.partie1 {
@@ -2463,6 +2507,10 @@ background-position: center;
     	column-count : 1 ;
 	}
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 66da1d54a923c3dfb1a9b3c04fb34c3cd90cbf06
 	.corps-page-404 {
 	    display: block;
 	    background-image: url(/img/fond-404.jpg);
@@ -2502,7 +2550,11 @@ background-position: center;
 		font-size: 1.5rem;
 	}
 	
+<<<<<<< HEAD
+
+=======
 }
+>>>>>>> 66da1d54a923c3dfb1a9b3c04fb34c3cd90cbf06
 
 @media screen and (max-width:560px) {
 
@@ -2882,6 +2934,7 @@ color:rgba(255,255,255,1);
 font-size:16px; 
 color:rgba(230,28,49,1);
 }
+
 .footer-bs .footer-brand, .footer-bs .footer-txt, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
 .footer-bs .footer-txt, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
 .footer-bs .footer-brand h2 { margin:0px 0px 10px; }
