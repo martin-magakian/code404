@@ -38,7 +38,7 @@
 
 
 <div class="container container-about">
-	<div class="row centre-about">
+	<div class="row">
 		<!-- php array = tableau dedans 6 tableau car 6 éléments , on ajoute des mots clefs (img nom..) ce sont des élément qui changeront dans le html-->
 
 		<?php
@@ -79,7 +79,7 @@
 		foreach($cardsabout as $cardabout){ ?>
 
 		<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 margeabout" >
-			<div class="card shadow">
+			<div class="card card-profs shadow">
 				<img class="card-img-top" src="<?php echo $cardabout['img'] ?>" alt="professeur institut de devellopement code 404">
 				<div class="card-body card-body-about">
 					<h4 class="card-title space haut les-profs name"><?php echo $cardabout['nom'] ?></h4>

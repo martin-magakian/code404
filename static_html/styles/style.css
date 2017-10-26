@@ -683,11 +683,7 @@ button>a:hover {
 	margin-bottom:2em;
 }
 
-.name {
-	font-family:corbel;
-	text-transform:uppercase;
-	font-weight:1.5em;
-}
+
 
 .gras {
 	font-family:'texteGras';
@@ -716,7 +712,7 @@ a:hover {
 	padding: 0.35rem 0rem;
 	font-size: 1rem;
 	line-height: 1.25;
-	border-radius: .25rem;
+	border-radius: 0 0 .25rem .25rem;
 	transition: all .15s ease-in-out;
 	width: 100%;
 }
@@ -757,6 +753,12 @@ a:hover {
 	text-align:center;
 	font-family: 'corbel';
 	
+}
+
+.name {
+	font-family:'corbel';
+	text-transform:uppercase;
+	font-weight:1.5em;
 }
 
 .card {
@@ -2682,7 +2684,8 @@ a:visited{
 	}
 
 	.btn-block {
-		width: 100%;
+		width: 99%;
+		font-size: 1em;
 	}
 
 	.titre-bloc-rouge {
@@ -2751,6 +2754,12 @@ a:visited{
 	.actus {
 		padding-left: 0;
 		padding-right: 0;
+	}
+
+	.card-profs {
+		border: 0px solid rgba(0,0,0,.125);
+		border-radius: 0;
+		width: 75%;
 	}
 
 	.card-block1, .card-block2, .card-block6 {
@@ -2824,6 +2833,28 @@ a:visited{
 	.grey {
 		padding: 1em;
 	}
+
+	.about img{
+		width: 9%;
+	}
+
+	.btn-primary-about {
+		padding: 0.25rem;
+	}
+
+	.les-profs {
+		text-align: center;
+		font-family: 'corbel';
+		font-size: 0.89em;
+	}
+
+	.name {
+		font-family: 'corbel';
+		text-transform: uppercase;
+		font-weight: 1.5em;
+		font-size: 1.35em;
+	}
+
 
 }
 
