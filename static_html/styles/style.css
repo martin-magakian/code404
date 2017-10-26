@@ -2,7 +2,6 @@
 	font-family: 'corbel';
 	src: url('/fonts/corbel.ttf');
 }
-
 @font-face {
 	font-family: 'texteGras';
 	src: url('/fonts/corbelb.ttf');
@@ -130,7 +129,7 @@ ul>li>a:hover {
 .txt-p1 {
 	padding-left: 2rem;
 	padding-right: 2rem;
-	font-family : "corbel" ;
+	font-family : 'corbel' ;
 	font-size: 1.2rem;
 	margin-top: 2rem;
 }
@@ -199,7 +198,7 @@ div.container.partie2 {
 
 .btn-unique {
 	margin-top: 3rem;
-	font-family : "corbel" ;
+	font-family : corbel ;
 	background-color: #e61c31;
 }
 
@@ -1218,6 +1217,102 @@ a:visited{
 }
 
 
+/* SUCCESS-STORY ANCIEN CSS
+
+.gris-success {
+	background : #ededed ;
+	border-style : none ;
+	margin: 0 !important ;
+    padding: 15px;
+	height : auto;
+	box-shadow: 0px 4px 12px -1px rgba(0, 0, 0, 0.3) inset;
+}
+
+
+.titresuccess {
+	font-size : 1.2em ;
+	margin-top : 7em ;
+	text-align : center ;
+	letter-spacing : 0.2em ;
+	margin-bottom: 5em;
+}
+
+.tiretrouge {
+	color : red;
+}
+
+.h3rouge {
+	color : red;
+	text-transform: none;
+	letter-spacing: 0;
+	font-size : 1em;
+	margin: -23px 0px 0px 0px;
+	text-align : center ; 
+}
+
+
+.port-image {
+    width: 100%;
+}
+
+.gallery_product {
+    margin-bottom: 30px;
+}
+
+#contenu {
+	display : inline-block
+	background : red ;
+}
+
+.h3success {
+	font-size : 1em;
+	text-transform: none;
+	letter-spacing: 0;
+	text-align : center ;
+	margin-top: 0.7em;
+}
+
+.tailleimage {
+	width : 13rem;
+}
+
+
+.card-img1, .card-img2, .card-img3, .card-img4, .card-img5, .card-img6 {
+	height: 20rem;
+}
+
+
+.card-img1 {
+	background: url("/img/image01.jpg");
+	background-position: center;
+}
+
+.card-img2 {
+	background: url("/img/image02.jpg");
+	background-position: center;
+}
+
+.card-img3 {
+	background: url("/img/image03.jpg");
+	background-position: center;
+}
+
+.card-img4 {
+	background: url("/img/image04.jpg");
+	background-position: center;
+}
+
+.card-img5 {
+	background: url("/img/image05.jpg");
+	background-position: center;
+}
+
+.card-img6 {
+	background: url("/img/image06.jpg");
+	background-position: center;
+}*/
+
+
 /* SUCCESS-STORY */
 
 .gris-success {
@@ -1348,8 +1443,8 @@ a:visited{
 }
 
 .encart-block4, .encart-block5 {
-	height: 14.2rem ;
-	margin-top: 1.6rem ;
+	height: 14.2rem;
+	margin-top:1.6rem;
 }
 
 .encart-block1 {
@@ -1389,6 +1484,8 @@ a:visited{
 }
 
 .texte-actu {
+	/*position: absolute;
+	overflow: hidden; */
 	background: #e6e6e6;
 	width: 100%;
 	height: 4rem;
