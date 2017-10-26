@@ -83,9 +83,9 @@
 <div class="container dernierepartie">
 
 	<div class="row portfolio">
-		<div class="col-lg-6 col-sm-12">
+		<div class="col-lg-6 col-sm-12 responsive-block">
 			<div class="row">
-				<div class="col-12">
+				<div class="col-12 responsive-block">
 					<div class="encart-3 encart-actu-3">
 						<!--<img class="card-img-top" src="..." alt="Card image cap">-->
 						<div class="encart-block3">
@@ -95,7 +95,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-6 col-sm-12">
+				<div class="col-lg-6 col-sm-12 responsive-block">
 					<div class="encart-4 encart-actu-4">
 						<!--<img class="card-img-top" src="..." alt="Card image cap">-->
 						<div class="encart-block4">
@@ -103,7 +103,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6 col-sm-12">
+				<div class="col-lg-6 col-sm-12 responsive-block">
 					<div class="encart-5 encart-actu-5">
 						<!--<img class="card-img-top" src="..." alt="Card image cap">-->
 						<div class="encart-block5">
