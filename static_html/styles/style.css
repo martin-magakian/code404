@@ -804,6 +804,13 @@ a:hover {
 	background: white;
 }
 
+.container-header{
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 100%;
+}
 .bg3{
 	background-image: url('/img/bg3.svg');
 	background-size: 101%;
@@ -2967,6 +2974,16 @@ a:visited{
 		background-color: #e62530;
 		height: 19.35rem;
 		padding-bottom: 0em;
+	}
+
+	.container-header {
+		margin-right: auto;
+		margin-left: auto;
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		width: 100%;
 	}
 
 }

@@ -96,7 +96,7 @@
 						<p class="txt-p3"> Un environement de travail idéal. </p>
 					</div>
 					<div class="col-lg-4 col-md-6 col-xs-12 colonnes-pictos-p3 picto-salaire">
-						<img class="picto-partie3" src="img/picto-salaire.svg">
+						<img class="picto-partie3 picto-partie3-salaire" src="img/picto-salaire.svg">
 						<h4 class="titre-picto-p3"> Salaire de rêve </h4>
 						<p class="txt-p3"> De véritables acteurs du monde du dévelopement web. </p>
 					</div>
