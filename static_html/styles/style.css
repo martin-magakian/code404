@@ -2,6 +2,7 @@
 	font-family: 'corbel';
 	src: url('/fonts/corbel.ttf');
 }
+
 @font-face {
 	font-family: 'texteGras';
 	src: url('/fonts/corbelb.ttf');
@@ -129,7 +130,7 @@ ul>li>a:hover {
 .txt-p1 {
 	padding-left: 2rem;
 	padding-right: 2rem;
-	font-family : 'corbel' ;
+	font-family : "corbel" ;
 	font-size: 1.2rem;
 	margin-top: 2rem;
 }
@@ -198,7 +199,7 @@ div.container.partie2 {
 
 .btn-unique {
 	margin-top: 3rem;
-	font-family : corbel ;
+	font-family : "corbel" ;
 	background-color: #e61c31;
 }
 
