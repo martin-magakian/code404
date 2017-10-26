@@ -2458,6 +2458,12 @@ a:visited{
 	    height: 27em;
 	}
 
+	.plyr--video .plyr__controls {
+    
+    padding: 50px 51px 13px;
+   
+}
+
 
 }
 
