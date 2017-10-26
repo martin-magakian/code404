@@ -80,7 +80,9 @@
 
 		<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 margeabout" >
 			<div class="card card-profs shadow">
-				<img class="card-img-top" src="<?php echo $cardabout['img'] ?>" alt="professeur institut de devellopement code 404">
+				<div class="photo-card-box">
+					<img class="card-img-top" src="<?php echo $cardabout['img'] ?>" alt="professeur institut de devellopement code 404">
+				</div>
 				<div class="card-body card-body-about">
 					<h4 class="card-title space haut les-profs name"><?php echo $cardabout['nom'] ?></h4>
 					<p class="card-text space les-profs"><?php echo $cardabout['profession'] ?></p>

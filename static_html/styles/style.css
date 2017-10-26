@@ -2759,7 +2759,7 @@ a:visited{
 	.card-profs {
 		border: 0px solid rgba(0,0,0,.125);
 		border-radius: 0;
-		width: 75%;
+		width: 100%;
 	}
 
 	.card-block1, .card-block2, .card-block6 {
@@ -2845,16 +2845,24 @@ a:visited{
 	.les-profs {
 		text-align: center;
 		font-family: 'corbel';
-		font-size: 0.89em;
+		font-size: 1em;
 	}
 
 	.name {
 		font-family: 'corbel';
 		text-transform: uppercase;
 		font-weight: 1.5em;
-		font-size: 1.35em;
+		font-size: 1.55em;
 	}
 
+	.photo-card-box {
+		height: 150px;
+		overflow: hidden;
+	}
+
+	.card-img-top {
+		margin-top: -2.5rem;
+	}
 
 }
 
