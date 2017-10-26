@@ -1421,14 +1421,13 @@ a:visited{
 }
 
 .titre-bloc-rouge {
-	font-size : 1.2em ;
-	padding-top : 8em ;
-	text-align : center ;
-	letter-spacing : 0.2em ;
-	margin-bottom: 5em;
-	color : white ;
+    font-size: 1.2em;
+    padding-top: 9em;
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin-bottom: 5em;
+    color: white;
 }
-
 	.dernierepartie { 
 		padding-bottom: 7rem;
 	}
