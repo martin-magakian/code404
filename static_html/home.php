@@ -91,7 +91,7 @@
 						<p class="txt-p3"> X heures de cours par semaines. Oublies tes week-end et tes vacances.</p>
 					</div>
 					<div class="col-lg-4 col-md-6 col-xs-12 colonnes-pictos-p3">
-						<img class="picto-partie3" src="img/picto-team.svg">
+						<img class="picto-partie3 picto-partie3-team" src="img/picto-team.svg">
 						<h4 class="titre-picto-p3"> Super team </h4>
 						<p class="txt-p3"> Un environement de travail idéal. </p>
 					</div>

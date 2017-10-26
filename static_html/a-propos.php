@@ -26,9 +26,7 @@
 				<div class="col">
 					<h2 class="text-center text-center-apropos GTitre">BIENVENU CHEZ CODE_404</h2>
 					<p class="text-center gras text-center-apropos white">Tu rêves de devenir développeur depuis ton plus jeune âge ? </p>
-					<p class="text-center text-center-apropos white">Code_404 c’est avant-tout un lieu de partage de connaissances</p> 
-					<p class="text-center text-center-apropos white">où les grands maîtres développeurs qui t’accompagnerons durant ces 3 ans</p> 
-					<p class="text-center text-center-apropos white">vont te donner les clés de la réusite.</p> 
+					<p class="text-center text-center-apropos white">Code_404 c’est avant-tout un lieu de partage de connaissances où les grands maîtres développeurs qui t’accompagnerons durant ces 3 ans vont te donner les clés de la réusite.</p> 
 				</div>
 			</div>
 		</div>
@@ -178,14 +176,14 @@
 		</div>
 		<div class="barre center"></div><!-- <img src="img/barre.svg" alt="" class="center"> -->
 	</div>
-	<div class="container haut white">
-		<div class="row haut">
-			<div class="col haut">
+	<div class="container haut-2 white">
+		<div class="row haut-2">
+			<div class="col haut-2">
 				<p class="text-center text-center-apropos white">1ère année</p>
 				<p class="text-center text-center-apropos white">2ème année</p>
 				<p class="text-center text-center-apropos white">3ème année</p>
 			</div>
-			<div class="col haut">
+			<div class="col haut-2">
 				<p class="text-center text-center-apropos white">9500 €</p>
 				<p class="text-center text-center-apropos white">9500 €</p>
 				<p class="text-center text-center-apropos white">9500 €</p>
@@ -193,7 +191,7 @@
 		</div>
 	</div>
 	<div class="row justify-content-center align-items-center">
-		<div class="barre center hauteur"></div>
+		<div class="barre barre2 center hauteur"></div>
 	</div>
 </div>
 <div class="container-fluid bg3">

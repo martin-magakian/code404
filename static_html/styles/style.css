@@ -2703,6 +2703,20 @@ a:visited{
 
 @media screen and (max-width:380px) {
 
+	.background-header {
+		background-size: 300%;
+		height: 24rem;
+	}
+
+	.baseline-about {
+		font-size: 1.56rem;
+		margin-top: 9em;
+	}
+
+	.baseline {
+		margin-top: 20rem;
+	}
+
 	.partie1 {
 		background: #e61c31;
 		height: 65rem;
@@ -2711,6 +2725,24 @@ a:visited{
 		text-align:center;
 		box-shadow: 0px 4px 12px -1px rgba(0, 0, 0, 0.3) inset;
 		z-index: 5;
+	}
+
+	.picto-partie1 {
+		height: 160px;
+	}
+
+	.picto-profs-co {
+		text-align: center;
+		margin: auto;
+		margin-top: 2rem;
+	}
+
+	.txt-p1 {
+		padding-left: 1rem;
+		padding-right: 1rem;
+		font-family: 'corbel';
+		font-size: 1.2rem;
+		margin-top: 0rem;
 	}
 
 	.partie2 {
@@ -2740,6 +2772,33 @@ a:visited{
 		padding-top:5rem;
 		padding-bottom: 7rem;
 		text-align:center;
+	}
+
+	.colonnes-pictos-p3 {
+		height: auto;
+	}
+
+	.picto-partie3 {
+		height: 100px;
+		margin-top: 8rem;
+	}
+
+
+
+	.picto-partie3-team {
+		/* margin-top: 0px; */
+		left: -5rem;
+	}
+	.picto-partie3-salaire {
+		margin-top: 7rem;
+	}
+
+	.txt-p3 {
+		padding-left: 2rem;
+		padding-right: 2rem;
+		font-family: corbel;
+		font-size: 1.2rem;
+		margin-top: 0;
 	}
 
 	.partie4 {
@@ -2862,6 +2921,52 @@ a:visited{
 
 	.card-img-top {
 		margin-top: -2.5rem;
+	}
+
+	.finabout {
+		padding-top: 3rem;
+	}
+
+	.grey {
+		padding: 1em;
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
+
+	.GTitre {
+		font-size: 1.4em;
+		margin-bottom: 1.5em;
+		text-transform: uppercase;
+		letter-spacing: 0.2em;
+	}
+
+	.barre{
+		height: 3px;
+		width: 50%;
+		background: white;
+		margin-top: -5em;
+	}
+
+	.barre2{
+		height: 3px;
+		width: 50%;
+		background: white;
+	}
+	
+	.hauteur {
+		margin-top: 1.65rem;
+	}
+
+	.haut-2 {
+		margin-top: -0.6em;
+		padding-top: 0.25rem;
+	}
+
+	.bgscolarite {
+		background-image: none;
+		background-color: #e62530;
+		height: 19.35rem;
+		padding-bottom: 0em;
 	}
 
 }
