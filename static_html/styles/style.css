@@ -2918,6 +2918,10 @@ a:visited{
 	    height: 11em;
 	}
 
+	.plyr--video .plyr__controls {
+    padding: 50px 16px 13px;
+	}
+
 
 }
 
