@@ -59,12 +59,16 @@ get_header(); ?>
 						<p class="txt-p1"> <?php the_field('txt-col1')?></p>
 					</div>
 					<div class="col-lg-4 col-md-6 col-xs-12 colonnes-pictos-p1">
-						<img class="picto-partie1" src="/wp-content/themes/twentyseventeen/img/picto-emploi-sortie.svg">
+						<?php $image = get_field('image-picto2'); ?>
+    					<img class="picto-partie1" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+						<!-- <img class="picto-partie1" src="/wp-content/themes/twentyseventeen/img/picto-emploi-sortie.svg"> -->
 						<h4 class="titre-picto-p1"> <?php the_field('home_title-col2')?> </h4>
 						<p class="txt-p1"> <?php the_field('txt-col2')?> </p>
 					</div>
 					<div class="col-lg-4 col-md-6 col-xs-12 colonnes-pictos-p1 picto-profs-co">
-						<img class="picto-partie1 picto-partie1-3" src="/wp-content/themes/twentyseventeen/img/picto-profs.svg">
+						<?php $image = get_field('image-picto3'); ?>
+    					<img class="picto-partie1" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+						<!-- <img class="picto-partie1 picto-partie1-3" src="/wp-content/themes/twentyseventeen/img/picto-profs.svg"> -->
 						<h4 class="titre-picto-p1"> <?php the_field('home_title-col3')?> </h4>
 						<p class="txt-p1"> <?php the_field('txt-col3')?> </p>
 					</div>
