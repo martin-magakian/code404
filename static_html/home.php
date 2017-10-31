@@ -7,26 +7,6 @@
 </div>
 
 
-<!-- ANCIEN HEADER
-
-<div class="container-fluid background-header">
-					  
-			<div class="container">
-				<div class="row">
-					<div class="col">
-
-						
-					   <div class="row justify-content-center align-items-center">
-							<div class="col-10 " style="text-align: center">
-								<h1 class="baseline">  &#60h1&#62 l'école qui sort des codes &#60/h1&#62 </h1>
-							</div>
-						</div>
-					
-					</div>
-				</div>
-			</div>
-		</div> FIN ANCIEN HEADER-->
-
 		
 		<div class="container-fluid partie1">
 			<div class="container">

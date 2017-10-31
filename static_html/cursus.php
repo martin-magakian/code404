@@ -117,7 +117,7 @@
 </div>
 <div class="container blanc-cursus">
 	<h2 class=" h2-cursus titre2-cursus"> TES NOUVEAUX LANGAGES </h2>
-	<img class="image-cursus" src="img/logos-logiciels/logos.jpg">
+	<img class="image-cursus" src="/img/logos.jpg">
 	
 </div>
 
