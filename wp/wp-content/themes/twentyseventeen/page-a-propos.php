@@ -149,7 +149,7 @@ get_header(); ?>
 			</div>
 		</div>
 
-		<button type="button" class="btn btn-primary colorred btn-lg btn-block casse"> <a href="/?page=success-story" class="white">Découvre la success story </a></button>
+		<button type="button" class="btn btn-primary colorred btn-lg btn-block casse"> <a href="success-story" class="white">Découvre la success story </a></button>
 	</div>
 
 </div>

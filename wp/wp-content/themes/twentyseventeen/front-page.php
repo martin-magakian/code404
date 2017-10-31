@@ -91,7 +91,7 @@ get_header(); ?>
 						</div>
 					</div>	
 				</div>
-				<a href="#"><button type="button" class="btn btn-danger btn-unique">Prêt à démarrer l'aventure ?</button></a>
+				<a href="cursus"><button type="button" class="btn btn-danger btn-unique">Prêt à démarrer l'aventure ?</button></a>
 			</div>
 			<div class="ninja-fond-img">
 			</div>
