@@ -146,12 +146,11 @@ get_header(); ?>
 	<div class="container finabout">
 		<div class="row">
 			<div class="col">
-				<?php the_field('text2') ; ?>
 				
-				<!--<p class="text-center text-center-apropos ">Après ces 3 années d’apprentissage intense avec des professionels </p>
+				<p class="text-center text-center-apropos ">Après ces 3 années d’apprentissage intense avec des professionels </p>
 				<p class="text-center text-center-apropos ">du développement web tu seras apte à intégrer les plus grandes entreprises </p> 
 				<p class="text-center text-center-apropos">tels que Google, twitter, ... </p> 
-				<p class="text-center text-center-apropos">dans lesquelles tes capacités de développeur ninja expérimenté seront un atout.</p> -->
+				<p class="text-center text-center-apropos">dans lesquelles tes capacités de développeur ninja expérimenté seront un atout.</p> 
 			</div>
 		</div>
 
