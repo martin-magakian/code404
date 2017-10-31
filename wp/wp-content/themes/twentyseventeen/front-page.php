@@ -17,7 +17,7 @@ get_header(); ?>
 	<div class="video-home-bg" data-vide-bg="https://www.ironhack.com/assets/videos/ironhack-video-3">
 	<div class="row justify-content-center align-items-center">
 		<div class="col-10 " style="text-align: center">
-			<h1 class="baseline">  &#60h1&#62 l'école qui sort des codes &#60/h1&#62 </h1>
+			<h1 class="baseline"> <?php the_field('hometitle')?> </h1>
 		</div>
 	</div>
 </div>
