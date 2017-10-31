@@ -43,9 +43,14 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h2 class="text-center text-center-apropos GTitre">BIENVENU CHEZ CODE_404</h2>
+					<?php // Show the selected frontpage content.
+						while ( have_posts() ) : the_post();
+						 the_content ();
+						endwhile;
+ 					?>
+					<!--<h2 class="text-center text-center-apropos GTitre">BIENVENU CHEZ CODE_404</h2>
 					<p class="text-center gras text-center-apropos white">Tu rêves de devenir développeur depuis ton plus jeune âge ? </p>
-					<p class="text-center text-center-apropos white">Code_404 c’est avant-tout un lieu de partage de connaissances où les grands maîtres développeurs qui t’accompagnerons durant ces 3 ans vont te donner les clés de la réusite.</p> 
+					<p class="text-center text-center-apropos white">Code_404 c’est avant-tout un lieu de partage de connaissances où les grands maîtres développeurs qui t’accompagnerons durant ces 3 ans vont te donner les clés de la réusite.</p> -->
 				</div>
 			</div>
 		</div>
@@ -149,7 +154,7 @@ get_header(); ?>
 			</div>
 		</div>
 
-		<button type="button" class="btn btn-primary colorred btn-lg btn-block casse"> <a href="/?page=success-story" class="white">Découvre la success story </a></button>
+		<button type="button" class="btn btn-primary colorred btn-lg btn-block casse"> <a href="success-story" class="white">Découvre la success story </a></button>
 	</div>
 
 </div>
