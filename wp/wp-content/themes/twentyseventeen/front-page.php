@@ -18,10 +18,14 @@ get_header(); ?>
 	<div class="row justify-content-center align-items-center">
 		<div class="col-10 " style="text-align: center">
 <<<<<<< HEAD
+			<h1 class="baseline"> <?php the_field('home_title'); ?><!--  &#60h1&#62 l'école qui sort des codes &#60/h1&#62 --> </h1>
+=======
+<<<<<<< HEAD
 			<h1 class="baseline"> <?php the_field('home_title')?> </h1>
 =======
 			<h1 class="baseline"> <?php the_field('hometitle')?> </h1>
 >>>>>>> 5b7d83fe57c21db254fa7b355c94ce83274e40fe
+>>>>>>> c39a6d23bb424f2258b8576bb388855906f84665
 		</div>
 	</div>
 </div>
@@ -52,6 +56,21 @@ get_header(); ?>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-4 col-md-6 col-xs-12 colonnes-pictos-p1">
+<<<<<<< HEAD
+						<img class="picto-partie1" src="/wp-content/themes/twentyseventeen/img/picto-dev-confirme.svg">
+						<h4 class="titre-picto-p1"><!--  Developpeur confirmé --> <?php the_field('text-col-1'); ?></h4>
+						<p class="txt-p1"> Des langages importants : Javascript, C/C++, Python, PHP, ...</p>
+					</div>
+					<div class="col-lg-4 col-md-6 col-xs-12 colonnes-pictos-p1">
+						<img class="picto-partie1" src="/wp-content/themes/twentyseventeen/img/picto-emploi-sortie.svg">
+						<h4 class="titre-picto-p1"><?php the_field('text-col-2'); ?> <!-- Emploi à la sortie  --></h4>
+						<p class="txt-p1"> Un travail à la hauteur de tes attentes </p>
+					</div>
+					<div class="col-lg-4 col-md-6 col-xs-12 colonnes-pictos-p1 picto-profs-co">
+						<img class="picto-partie1 picto-partie1-3" src="/wp-content/themes/twentyseventeen/img/picto-profs.svg">
+						<h4 class="titre-picto-p1"> <!-- Profs connectés --><?php the_field('text-col-3'); ?> </h4>
+						<p class="txt-p1"> De véritables acteurs du monde du dévelopement web. </p>
+=======
 						<?php $image = get_field('image-picto'); ?>
     					<img class="picto-partie1" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 						<!--<img class="picto-partie1" src="/wp-content/themes/twentyseventeen/img/picto-dev-confirme.svg">-->
@@ -71,6 +90,7 @@ get_header(); ?>
 						<!-- <img class="picto-partie1 picto-partie1-3" src="/wp-content/themes/twentyseventeen/img/picto-profs.svg"> -->
 						<h4 class="titre-picto-p1"> <?php the_field('home_title-col3')?> </h4>
 						<p class="txt-p1"> <?php the_field('txt-col3')?> </p>
+>>>>>>> c39a6d23bb424f2258b8576bb388855906f84665
 					</div>
 				</div>
 			</div>
@@ -86,11 +106,28 @@ get_header(); ?>
 				<div class="row unique">
 					<div class="col-lg-6 col-sm-12">
 						<div class="unique-p1">
+<<<<<<< HEAD
+
+							<?php
+							while ( have_posts() ) : the_post();
+
+								the_content();
+
+							
+							endwhile; // End of the loop.
+							?>
+
+							<!-- <p class="txt-unique">méthode de travail en bootcamps</p>
+							<p class="txt-unique">véritables projets</p>
+							<p class="txt-unique">accessible avec ou sans BAC</p>
+							<p class="txt-unique">travail d’équipe</p> -->
+=======
 							<?php // Show the selected frontpage content.
 								while ( have_posts() ) : the_post();
 										the_content();
 								endwhile; 
 							?>
+>>>>>>> c39a6d23bb424f2258b8576bb388855906f84665
 						</div>
 					</div>
 					 <div class="col-lg-6 col-sm-12">
