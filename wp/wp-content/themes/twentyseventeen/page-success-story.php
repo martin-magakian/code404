@@ -18,8 +18,10 @@
 get_header(); ?>
 
 
-<!-- debut page success-story -->
-<div class="vidéo" data-type="vimeo" data-video-id="32383563"></div>
+<!-- debut page success-story 
+<div class="vidéo" data-type="vimeo" data-video-id="32383563"></div>-->
+
+<div data-type="youtube" data-video-id="opuFmi78tqY"></div>
 
 
 

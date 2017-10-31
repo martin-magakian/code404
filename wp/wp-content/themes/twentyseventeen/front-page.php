@@ -58,7 +58,7 @@ get_header(); ?>
 						<p class="txt-p1"> Un travail à la hauteur de tes attentes </p>
 					</div>
 					<div class="col-lg-4 col-md-6 col-xs-12 colonnes-pictos-p1 picto-profs-co">
-						<img class="picto-partie1 picto-partie1-3" src="/wp-content/themes/twentyseventeen/imgimg/picto-profs.svg">
+						<img class="picto-partie1 picto-partie1-3" src="/wp-content/themes/twentyseventeen/img/picto-profs.svg">
 						<h4 class="titre-picto-p1"> Profs connectés </h4>
 						<p class="txt-p1"> De véritables acteurs du monde du dévelopement web. </p>
 					</div>
