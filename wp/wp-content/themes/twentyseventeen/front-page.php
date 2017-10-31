@@ -58,7 +58,7 @@ get_header(); ?>
 						<p class="txt-p1"> Un travail à la hauteur de tes attentes </p>
 					</div>
 					<div class="col-lg-4 col-md-6 col-xs-12 colonnes-pictos-p1 picto-profs-co">
-						<img class="picto-partie1 picto-partie1-3" src="/wp-content/themes/twentyseventeen/imgimg/picto-profs.svg">
+						<img class="picto-partie1 picto-partie1-3" src="/wp-content/themes/twentyseventeen/img/picto-profs.svg">
 						<h4 class="titre-picto-p1"> Profs connectés </h4>
 						<p class="txt-p1"> De véritables acteurs du monde du dévelopement web. </p>
 					</div>
@@ -102,17 +102,17 @@ get_header(); ?>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-4 col-md-6 col-xs-12 colonnes-pictos-p3">
-						<img class="picto-partie3" src="img/picto-intensif.svg">
+						<img class="picto-partie3" src="/wp-content/themes/twentyseventeen/img/picto-intensif.svg">
 						<h4 class="titre-picto-p3"> Travail intensif </h4>
 						<p class="txt-p3"> X heures de cours par semaines. Oublies tes week-end et tes vacances.</p>
 					</div>
 					<div class="col-lg-4 col-md-6 col-xs-12 colonnes-pictos-p3">
-						<img class="picto-partie3 picto-partie3-team" src="img/picto-team.svg">
+						<img class="picto-partie3 picto-partie3-team" src="/wp-content/themes/twentyseventeen/img/picto-team.svg">
 						<h4 class="titre-picto-p3"> Super team </h4>
 						<p class="txt-p3"> Un environement de travail idéal. </p>
 					</div>
 					<div class="col-lg-4 col-md-6 col-xs-12 colonnes-pictos-p3 picto-salaire">
-						<img class="picto-partie3 picto-partie3-salaire" src="img/picto-salaire.svg">
+						<img class="picto-partie3 picto-partie3-salaire" src="/wp-content/themes/twentyseventeen/img/picto-salaire.svg">
 						<h4 class="titre-picto-p3"> Salaire de rêve </h4>
 						<p class="txt-p3"> De véritables acteurs du monde du dévelopement web. </p>
 					</div>

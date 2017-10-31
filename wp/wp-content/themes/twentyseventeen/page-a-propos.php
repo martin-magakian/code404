@@ -61,7 +61,7 @@ get_header(); ?>
 		<?php
 		$cardsabout = array(
 			array(
-				"img" => "/wp-content/themes/twentyseventeen/img/img/professional1.png",
+				"img" => "/wp-content/themes/twentyseventeen/img/professional1.png",
 				"nom" => "FRANCK MARTIN",
 				"profession" => "Professeur de JAVASCRIPT - Ingénieur informatique chez EDF",
 				),
