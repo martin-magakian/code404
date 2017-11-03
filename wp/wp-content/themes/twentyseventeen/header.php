@@ -81,16 +81,16 @@
 			<div class="collapse navbar-collapse justify-content-center col-md-8" id="navbarNav12">
 				<ul class="navbar-nav justify-content-right">
 					<li class="nav-item active">
-						<a class="nav-link" href="cursus">cursus</a>
+						<a class="nav-link" href="/cursus">cursus</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="success-story">success story</a>
+						<a class="nav-link" href="/success-story">success story</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="a-propos">à propos</a>
+						<a class="nav-link" href="/a-propos">à propos</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="contact">contact</a>
+						<a class="nav-link" href="/contact">contact</a>
 					</li>
 				</ul>
 			</div>

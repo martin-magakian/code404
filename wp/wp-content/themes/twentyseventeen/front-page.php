@@ -134,90 +134,11 @@ get_header(); ?>
 
 			<h3 class="titre-p4">Reste connecté</h3>
 			
-
-			<?php while( have_rows('cards_profs') ): the_row(); 
-			// vars
-			$image = get_sub_field('image');
-			$content = get_sub_field('content');
-			$link = get_sub_field('link');
-			?>
-
 			
 			<div class="row actus">
 				<div class="col-lg-4 col-sm-12">
 					<div class="card-1 card-actu-1">
 						<!--<img class="card-img-top" src="..." alt="Card image cap">-->
-						<div class="card-block1">
-							<p class="card-text text-actu content-align-bottom"><?php echo $content; ?></p>
-						</div>
-					</div>
-				</div>	
-				<div class="col-lg-8 col-sm-12">
-					<div class="card-2 card-actu-2">
-						<!--<img class="card-img-top" src="..." alt="Card image cap">-->
-						<div class="card-block2">
-							<p class="card-text text-actu content-align-bottom"><?php echo $content; ?></p>
-						</div>
-					</div>
-				</div>	
-			</div>
-			
-			<div class="row actus">
-				<div class="col-lg-6 col-sm-12 responsive-block">
-					<div class="row">
-						<div class="col-12 responsive-block">
-							<div class="card-3 card-actu-3">
-								<!--<img class="card-img-top" src="..." alt="Card image cap">-->
-								<div class="card-block3">
-									<p class="card-text text-actu content-align-bottom"><?php echo $content; ?></p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-6 col-sm-12 responsive-block">
-							<div class="card-4 card-actu-4">
-								<!--<img class="card-img-top" src="..." alt="Card image cap">-->
-								<div class="card-block4">
-									<p class="card-text text-actu content-align-bottom"><?php echo $content; ?></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 col-sm-12 responsive-block">
-							<div class="card-5 card-actu-5">
-								<!--<img class="card-img-top" src="..." alt="Card image cap">-->
-								<div class="card-block5">
-									<p class="card-text text-actu content-align-bottom"><?php echo $content; ?></p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-sm-12">
-					<div class="card-6 card-actu-6">
-						<!--<img class="card-img-top" src="..." alt="Card image cap">-->
-						<div class="card-block6">
-							<p class="card-text text-actu content-align-bottom"><?php echo $content; ?></p>
-						</div>
-					</div>
-				</div>	
-			</div>
-			
-			
-		</div>
-
-
-
-
-		<!-- <div class="container-fluid partie4 gallery-container">
-
-			<h3 class="titre-p4">Reste connecté</h3>
-			
-			
-			<div class="row actus">
-				<div class="col-lg-4 col-sm-12">
-					<div class="card-1 card-actu-1">
-						<img class="card-img-top" src="..." alt="Card image cap">
 						<div class="card-block1">
 							<p class="card-text text-actu content-align-bottom">ACTU 1: LOREM IPSUM</p>
 						</div>
@@ -225,7 +146,7 @@ get_header(); ?>
 				</div>	
 				<div class="col-lg-8 col-sm-12">
 					<div class="card-2 card-actu-2">
-						<img class="card-img-top" src="..." alt="Card image cap">
+						<!--<img class="card-img-top" src="..." alt="Card image cap">-->
 						<div class="card-block2">
 							<p class="card-text text-actu content-align-bottom">ACTU 2: LOREM IPSUM</p>
 						</div>
@@ -238,7 +159,7 @@ get_header(); ?>
 					<div class="row">
 						<div class="col-12 responsive-block">
 							<div class="card-3 card-actu-3">
-								<img class="card-img-top" src="..." alt="Card image cap">
+								<!--<img class="card-img-top" src="..." alt="Card image cap">-->
 								<div class="card-block3">
 									<p class="card-text text-actu content-align-bottom">ACTU 3: LOREM IPSUM</p>
 								</div>
@@ -248,7 +169,7 @@ get_header(); ?>
 					<div class="row">
 						<div class="col-lg-6 col-sm-12 responsive-block">
 							<div class="card-4 card-actu-4">
-								<img class="card-img-top" src="..." alt="Card image cap">
+								<!--<img class="card-img-top" src="..." alt="Card image cap">-->
 								<div class="card-block4">
 									<p class="card-text text-actu content-align-bottom">ACTU 4: LOREM IPSUM</p>
 								</div>
@@ -256,7 +177,7 @@ get_header(); ?>
 						</div>
 						<div class="col-lg-6 col-sm-12 responsive-block">
 							<div class="card-5 card-actu-5">
-								<img class="card-img-top" src="..." alt="Card image cap">
+								<!--<img class="card-img-top" src="..." alt="Card image cap">-->
 								<div class="card-block5">
 									<p class="card-text text-actu content-align-bottom">ACTU 5: LOREM IPSUM</p>
 								</div>
@@ -266,7 +187,7 @@ get_header(); ?>
 				</div>
 				<div class="col-lg-6 col-sm-12">
 					<div class="card-6 card-actu-6">
-						<img class="card-img-top" src="..." alt="Card image cap">
+						<!--<img class="card-img-top" src="..." alt="Card image cap">-->
 						<div class="card-block6">
 							<p class="card-text text-actu content-align-bottom">ACTU 6: LOREM IPSUM</p>
 						</div>
@@ -275,10 +196,7 @@ get_header(); ?>
 			</div>
 			
 			
-		</div> -->
-
-
-
+		</div>
 
 		<div class="container-fluid partie5">
 			<div class="row text-center">
